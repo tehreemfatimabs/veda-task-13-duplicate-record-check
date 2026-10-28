@@ -1,0 +1,1333 @@
+customer_id,full_name,email,age,order_amount,account_status,country,signup_date,notes,unused_flag,region
+1,Jack  Anderson,jack.anderson0@test.org,23,141.0,Inactive,USA,06-11-2023,lorem ipsum dolor sit amet,,north
+2,Grace Wilson,grace.wilson1@test.org,72,126.74,inactive,uk,"March 15, 2023",sample,,north
+3,Frank Mille,frank.mille2@mail.com,80,81.03, Active,usa,02/14/2023,Café latte discount applied,,north
+4,ivy taylor,ivy.taylor3@example.com,52,94.9,active,United Kingdom,2023-04-10,Rejected – invalid coupon,,north
+5,alice johnson,alice.johnson4@mail.com,69,28.71,Active,U.S.A.,"January 24, 2023",México office follow-up,,north
+6,Carol White,carol.white5@mail.com,19,238.07,Inactive,UK,16-10-2023,Customer requested faster shipping.,,north
+7,JACK ANDERSON,jack.anderson6@mail.com,70,328.5,Active,uk,22-03-2023,Customer requested faster shipping.,,north
+8,Eve Davi,eve.davi7@test.org,74,94.16,Inactive,UK,2023-07-16,sample,,north
+9,Bob Smit,bob.smit8@example.com,56,270.04,Inactive,UK,04/11/2023,Café latte discount applied,,north
+10,  Bob Smith  ,bob.smith9@test.org,61,60.09,active,United States,08/28/2024,ReciÃ©ved partial refund,,north
+11,ivy taylor,ivy.taylor10@mail.com,59,-250.0,Active,USA,17-11-2024,test,,north
+12,david brown,david.brown11@test.org,43,150.8,Active,USA,2023-01-27,lorem ipsum dolor sit amet,,north
+13,hank moore,,48,203.89,ACTIVE,United States,16-08-2023,urgent,,north
+14,  Jack Anderson  ,jack.anderson13@mail.com,67,84.85,Active,UK,"August 20, 2023",Café latte discount applied,,north
+15,Eve  Davis,eve.davis14@test.org,38,110.13, Active,UK,29-01-2023,ReciÃ©ved partial refund,,north
+16,Frank  Miller,frank.miller15@test.org,88,18.08,Active,uk,09/08/2024,ReciÃ©ved partial refund,,north
+17,Frank Miller,frank.miller16@mail.com,31,71.98,Active,uk,"November 16, 2023",lorem ipsum dolor sit amet,,north
+18,Ivy Taylo,ivy.taylo17@test.org,unknown,458.99,ACTIVE,USA,"April 09, 2023",Rejected – invalid coupon,,north
+19,Hank  Moore,hank.moore18@mail.com,52,-250.0,Inactive,USA,2024-05-22,sample,,north
+20,David Brown,david.brown19@test.org,19,407.7, Active,UK,"May 09, 2023",ReciÃ©ved partial refund,,north
+21,eve davis,eve.davis20@example.com,74,454.89,Active,UK,2023-11-09,ReciÃ©ved partial refund,,north
+22,IVY TAYLOR,ivy.taylor21@mail.com,35,72.54,Inactive,United Kingdom,06/03/2024,Customer requested faster shipping.,,north
+23,Ivy  Taylor,ivy.taylor22@mail.com,-,494.72,active,UK,"September 11, 2023",Rejected – invalid coupon,,north
+24,BOB SMITH,bob.smith23@mail.com,40,137.63,Inactive,United Kingdom,2023-01-12,Rejected – invalid coupon,,north
+25,EVE DAVIS,eve.davis24@mail.com,?,371.58,inactive,United Kingdom,"April 04, 2023",Rejected – invalid coupon,,north
+26,Bob  Smith,bob.smith25@mail.com,65,171.97,Active,UK,2023-04-15,test,,north
+27,  Jack Anderson  ,jack.anderson26@mail.com,44,143.18,Active,United States,11-06-2023,México office follow-up,,north
+28,Ivy Taylor,ivy.taylor27@mail.com,51,466.92,Active,UK,2023-10-24,�� corrupted note �,,north
+29,Ivy  Taylor,ivy.taylor28@example.com,80,66.47,ACTIVE,USA,06/02/2024,Café latte discount applied,,north
+30,Eve  Davis,eve.davis29@example.com,59,179.13,Inactive,usa,2023-07-13,urgent,,north
+31,  Carol White  ,carol.white30@example.com,50,335.98,Inactive,United States,"October 13, 2023",Café latte discount applied,,north
+32,david brown,david.brown31@example.com,69,440.99,Active,usa,12/18/2023,Customer requested faster shipping.,,north
+33,JACK ANDERSON,jack.anderson32@example.com,44,114.54,active,United States,2023-09-06,�� corrupted note �,,north
+34,alice johnson,alice.johnson33@test.org,unknown,?,Active,U.S.A.,28-07-2024,Café latte discount applied,,south
+35,Jack Anderso,jack.anderso34@test.org,,259.95,active,usa,"September 27, 2024",lorem ipsum dolor sit amet,,north
+36,ivy taylor,ivy.taylor35@mail.com,31,76.3,Active,USA,"October 07, 2024",Customer requested faster shipping.,,north
+37,  Hank Moore  ,hank.moore36@mail.com,57,152.61,Active,USA,08/15/2023,Rejected – invalid coupon,,north
+38,EVE DAVIS,eve.davis37@mail.com,unknown,286.64, Active,UK,2024-07-08,Customer requested faster shipping.,,north
+39,Grace Wilso,grace.wilso38@test.org,47,-250.0,active,UK,02/02/2024,ReciÃ©ved partial refund,,north
+40,GRACE WILSON,grace.wilson39@example.com,28,137.08,active,UK,"November 23, 2023",Customer requested faster shipping.,,north
+41,frank miller,frank.miller40@mail.com,23,383.67,Active,U.S.A.,"October 18, 2024",sample,,north
+42,Jack Anderson,jack.anderson41@test.org,21,76.27,Active,uk,2023-01-16,sample,,north
+43,Bob  Smith,,63,441.12,inactive,U.S.A.,23-01-2023,test,,north
+44,Jack Anderson,jack.anderson43@test.org,27,29.96, Active,UK,11/22/2023,Customer requested faster shipping.,,north
+45,Hank  Moore,hank.moore44@test.org,,241.37,Active,United Kingdom,2024-09-03,Café latte discount applied,,north
+46,Alice Johnso,alice.johnso45@example.com,39,,Inactive,United States,"May 21, 2024",Customer requested faster shipping.,,north
+47,EVE DAVIS,?,49,371.5,active,United States,"April 28, 2023",lorem ipsum dolor sit amet,,south
+48,Carol  White,carol.white47@mail.com,20,462.28,active,uk,"March 08, 2024",lorem ipsum dolor sit amet,,north
+49,Hank  Moore,hank.moore48@test.org,69,345.33,ACTIVE,usa,01/01/2024,test,,north
+50,Grace Wilson,grace.wilson49@test.org,55,317.92,Inactive,usa,2024-07-07,Café latte discount applied,,north
+51,  Grace Wilson  ,grace.wilson50@mail.com,65,245.56,ACTIVE,UK,"December 04, 2023",Café latte discount applied,,north
+52,Grace  Wilson,grace.wilson51@test.org,76,310.21,ACTIVE,UK,04-04-2024,Café latte discount applied,,north
+53,BOB SMITH,bob.smith52@mail.com,79,25.71,ACTIVE,usa,07/15/2023,ReciÃ©ved partial refund,,north
+54,  Grace Wilson  ,grace.wilson53@mail.com,31,123.75, Active,U.S.A.,2024-03-12,Café latte discount applied,,north
+55,frank miller,frank.miller54@mail.com,60,464.28,ACTIVE,usa,"April 11, 2023",México office follow-up,,north
+56,CAROL WHITE,carol.white55@test.org,77,15.86,active,U.S.A.,"March 29, 2023",�� corrupted note �,,south
+57,David Brow,david.brow56@example.com,41,240.29, Active,United Kingdom,"March 12, 2024",test,,north
+58,  Eve Davis  ,eve.davis57@test.org,81,275.77,Active,United Kingdom,28-07-2024,México office follow-up,,north
+59,Frank Miller,frank.miller58@example.com,36,210.25,active,United Kingdom,2023-02-27,Customer requested faster shipping.,,north
+60,David  Brown,david.brown59@test.org,49,314.25,Inactive,United States,18-06-2024,Customer requested faster shipping.,,north
+61,Eve  Davis,eve.davis60@example.com,34,303.8,active,United States,"February 19, 2024",Customer requested faster shipping.,,north
+62,Eve  Davis,eve.davis61@test.org,80,71.28,active,usa,02-09-2024,Rejected – invalid coupon,,north
+63,Frank Mille,frank.mille62@test.org,34,208.11,ACTIVE,USA,2024-05-01,ReciÃ©ved partial refund,,north
+64,JACK ANDERSON,jack.anderson63@mail.com,45,151.55,ACTIVE,USA,"August 10, 2023",urgent,,north
+65,  Frank Miller  ,-,-,120.57,Active,United States,"March 16, 2023",test,,north
+66,david brown,david.brown65@mail.com,21,387.98,Inactive,uk,08/15/2024,,,north
+67,  Alice Johnson  ,alice.johnson66@mail.com,70,6.24,ACTIVE,usa,07/20/2023,,,north
+68,IVY TAYLOR,ivy.taylor67@mail.com,33,18.15,active,UK,15-11-2023,Customer requested faster shipping.,,north
+69,Eve Davis,,73,197.0,Active,UK,14-05-2023,Café latte discount applied,,north
+70,jack anderson,jack.anderson69@example.com,25,341.01,active,uk,28-06-2024,Customer requested faster shipping.,,south
+71,Alice Johnso,alice.johnso70@mail.com,37,498.12,ACTIVE,uk,2023-04-13,urgent,,north
+72,alice johnson,alice.johnson71@test.org,64,268.9,active,UK,21-02-2024,Customer requested faster shipping.,,north
+73,Eve Davis,eve.davis72@mail.com,29,135.41,Active,United Kingdom,29-11-2024,Customer requested faster shipping.,,north
+74,Alice  Johnson,alice.johnson73@mail.com,63,422.75,Active,USA,2023-09-25,test,,north
+75,FRANK MILLER,frank.miller74@mail.com,74,348.98,active,U.S.A.,2024-06-04,,,north
+76,Ivy Taylor,ivy.taylor75@mail.com,57,469.92,active,UK,2024-05-07,Rejected – invalid coupon,,north
+77,Eve Davis,eve.davis76@test.org,44,-250.0,inactive,usa,"August 11, 2024",�� corrupted note �,,north
+78,Grace Wilson,grace.wilson77@example.com,38,490.25,Active,United States,"June 16, 2024",Customer requested faster shipping.,,north
+79,Jack  Anderson,jack.anderson78@test.org,-5,317.06, Active,UK,"September 25, 2024",México office follow-up,,north
+80,CAROL WHITE,carol.white79@example.com,63,396.32,active,United States,"August 31, 2024",Customer requested faster shipping.,,north
+81,frank miller,frank.miller80@test.org,75,259.08,active,usa,2023-07-06,Café latte discount applied,,north
+82,Hank Moore,hank.moore81@test.org,37,239.5,active,UK,2023-06-26,urgent,,north
+83,Carol  White,carol.white82@mail.com,56,128.15, Active,USA,03/01/2024,test,,north
+84,alice johnson,?,85,169.3,Active,United States,07/22/2024,urgent,,north
+85,David Brown,david.brown84@test.org,63,98.14,Active,U.S.A.,"March 30, 2023",Café latte discount applied,,north
+86,Jack  Anderson,,89,167.23,active,usa,"September 14, 2024",Customer requested faster shipping.,,north
+87,Frank  Miller,frank.miller86@example.com,70,70.98,Inactive,UK,"February 17, 2023",Customer requested faster shipping.,,north
+88,  Alice Johnson  ,-,23,423.45,Active,usa,2023-03-14,,,north
+89,  Jack Anderson  ,jack.anderson88@mail.com,?,372.61,active,UK,"July 26, 2024",test,,north
+90,carol white,carol.white89@mail.com,38,207.69, Active,United States,"October 06, 2023",Customer requested faster shipping.,,north
+91,HANK MOORE,hank.moore90@test.org,28,?,active,uk,2023-12-23,Customer requested faster shipping.,,north
+92,Jack Anderson,jack.anderson91@test.org,unknown,467.48,active,United Kingdom,"August 04, 2023",México office follow-up,,north
+93,  Frank Miller  ,frank.miller92@example.com,unknown,161.0,active,United Kingdom,07/04/2023,Customer requested faster shipping.,,north
+94,Hank  Moore,hank.moore93@test.org,42,185.32,Inactive,UK,09-10-2023,Customer requested faster shipping.,,north
+95,eve davis,eve.davis94@test.org,52,399.36,active,usa,"July 14, 2023",Customer requested faster shipping.,,north
+96,Eve Davi,eve.davi95@example.com,,48.58,ACTIVE,United Kingdom,12-04-2024,Customer requested faster shipping.,,north
+97,ALICE JOHNSON,none,46,185.03, Active,United Kingdom,04/20/2024,Café latte discount applied,,south
+98,  Hank Moore  ,hank.moore97@example.com,69,299.38,Active,USA,2024-05-19,Café latte discount applied,,north
+99,IVY TAYLOR,ivy.taylor98@mail.com,67,496.36,Active,USA,10/19/2023,�� corrupted note �,,north
+100,JACK ANDERSON,jack.anderson99@test.org,,310.96,Active,usa,2023-04-03,México office follow-up,,north
+101,Eve Davis,eve.davis100@mail.com,46,,Inactive,UK,15-12-2023,Customer requested faster shipping.,,north
+102,Bob  Smith,bob.smith101@example.com,unknown,1000000.0,ACTIVE,usa,"September 15, 2024",,,north
+103,  Hank Moore  ,hank.moore102@test.org,42,309.38,active,UK,2023-11-10,Café latte discount applied,,north
+104,Alice  Johnson,alice.johnson103@test.org,43,190.21,Inactive,UK,"February 15, 2024",Customer requested faster shipping.,,north
+105,Eve Davis,eve.davis104@example.com,73,?,active,usa,01-11-2024,Customer requested faster shipping.,,north
+106,  Grace Wilson  ,grace.wilson105@example.com,999,96.75,Active,U.S.A.,04-01-2024,Café latte discount applied,,north
+107,Alice  Johnson,alice.johnson106@test.org,49,111.3, Active,USA,2023-06-07,�� corrupted note �,,north
+108,Carol Whit,carol.whit107@mail.com,65,480.57,Active,U.S.A.,24-03-2023,Café latte discount applied,,north
+109,  Ivy Taylor  ,,20,436.12,Active,U.S.A.,"June 25, 2023",ReciÃ©ved partial refund,,north
+110,Jack  Anderson,jack.anderson109@test.org,51,19.42,Inactive,UK,"February 19, 2024",test,,north
+111,Frank Mille,frank.mille110@test.org,39,123.86,active,USA,"May 19, 2024",Café latte discount applied,,north
+112,Hank Moore,hank.moore111@test.org,69,1000000.0,Active,United States,24-09-2024,Café latte discount applied,,north
+113,JACK ANDERSON,jack.anderson112@mail.com,71,-250.0,Active,UK,"November 11, 2023",Customer requested faster shipping.,,north
+114,Eve Davis,-,62,,Active,U.S.A.,2023-10-02,Café latte discount applied,,north
+115,DAVID BROWN,david.brown114@test.org,77,225.31,active,USA,2024-04-29,Customer requested faster shipping.,,north
+116,Frank Mille,frank.mille115@mail.com,41,382.06,active,United Kingdom,05-03-2024,México office follow-up,,north
+117,Hank Moor,hank.moor116@mail.com,-5,260.26,Active,uk,2024-08-08,Customer requested faster shipping.,,north
+118,GRACE WILSON,grace.wilson117@mail.com,77,357.68,inactive,usa,08/03/2023,México office follow-up,,north
+119,  Ivy Taylor  ,ivy.taylor118@mail.com,78,366.68,ACTIVE,United States,28-05-2023,urgent,,north
+120,Ivy Taylo,ivy.taylo119@mail.com,999,135.21,Active,uk,2024-09-25,México office follow-up,,north
+121,JACK ANDERSON,,57,342.5,Active,usa,2023-05-25,sample,,north
+122,Ivy  Taylor,ivy.taylor121@test.org,63,474.08,Active,UK,11/30/2023,,,north
+123,Eve Davi,eve.davi122@example.com,86,81.84,Active,United Kingdom,01/30/2024,,,north
+124,Jack  Anderson,jack.anderson123@test.org,25,194.75,Active,U.S.A.,2023-03-03,Customer requested faster shipping.,,north
+125,Alice Johnso,alice.johnso124@example.com,51,201.98,active,U.S.A.,19-10-2024,Customer requested faster shipping.,,north
+126,carol white,carol.white125@test.org,85,?, Active,USA,11/03/2024,ReciÃ©ved partial refund,,north
+127,bob smith,bob.smith126@example.com,45,?,active,usa,28-04-2023,lorem ipsum dolor sit amet,,north
+128,  Jack Anderson  ,jack.anderson127@example.com,76,54.13,Active,U.S.A.,"January 09, 2024",,,north
+129,bob smith,bob.smith128@example.com,89,460.84,ACTIVE,uk,05/28/2023,México office follow-up,,north
+130,  David Brown  ,david.brown129@mail.com,,420.32,Active,United Kingdom,2024-10-30,test,,north
+131,David Brown,david.brown130@example.com,80,418.64,Active,United Kingdom,28-09-2023,urgent,,north
+132,Ivy  Taylor,ivy.taylor131@mail.com,78,291.27,active,U.S.A.,2023-12-19,ReciÃ©ved partial refund,,north
+133,  Jack Anderson  ,jack.anderson132@example.com,?,145.45,ACTIVE,uk,11-07-2023,test,,north
+134,bob smith,bob.smith133@example.com,89,319.83,Inactive,usa,2024-02-27,�� corrupted note �,,north
+135,Alice Johnson,alice.johnson134@example.com,unknown,306.59,ACTIVE,United States,"October 26, 2023",test,,north
+136,  Carol White  ,carol.white135@test.org,73,390.7,Inactive,USA,"January 16, 2023",sample,,north
+137,Carol White,carol.white136@mail.com,63,14.15,Inactive,U.S.A.,08/19/2024,Customer requested faster shipping.,,north
+138,Bob  Smith,,81,,inactive,USA,07/20/2023,sample,,north
+139,Jack  Anderson,jack.anderson138@example.com,69,366.15,inactive,United Kingdom,09-11-2023,Café latte discount applied,,north
+140,Ivy Taylor,ivy.taylor139@test.org,20,153.33,active,United Kingdom,03/31/2023,Customer requested faster shipping.,,north
+141,Hank Moor,hank.moor140@mail.com,51,34.79,Active,USA,"April 28, 2024",urgent,,north
+142,Frank  Miller,frank.miller141@example.com,83,491.18, Active,UK,"February 28, 2023",test,,north
+143,  Ivy Taylor  ,ivy.taylor142@test.org,24,,ACTIVE,UK,05/17/2023,�� corrupted note �,,north
+144,Jack Anderson,jack.anderson143@example.com,54,492.98,active,uk,08-03-2023,,,north
+145,  David Brown  ,david.brown144@test.org,-,333.6,Active,United States,"August 05, 2023",Customer requested faster shipping.,,north
+146,Hank Moore,hank.moore145@example.com,,101.0, Active,UK,09/14/2023,Customer requested faster shipping.,,north
+147,ALICE JOHNSON,alice.johnson146@mail.com,42,122.97,active,usa,"May 18, 2023",Customer requested faster shipping.,,north
+148,  Carol White  ,carol.white147@example.com,54,376.58,ACTIVE,USA,2023-03-17,ReciÃ©ved partial refund,,north
+149,Bob  Smith,bob.smith148@test.org,79,249.04,Active,usa,11-06-2023,test,,north
+150,Frank Miller,frank.miller149@mail.com,56,264.22,active,uk,07-04-2024,ReciÃ©ved partial refund,,north
+151,hank moore,hank.moore150@example.com,73,300.38,Active,uk,"September 28, 2024",sample,,north
+152,Hank Moor,hank.moor151@example.com,32,483.05,Active,UK,2024-10-19,�� corrupted note �,,north
+153,Grace Wilso,grace.wilso152@example.com,37,164.22,Active,USA,03/07/2024,test,,north
+154,David Brow,none,84,42.55,Active,USA,2024-11-20,Café latte discount applied,,north
+155,Bob  Smith,bob.smith154@example.com,44,-,Active,UK,2023-11-12,Café latte discount applied,,south
+156,Jack Anderson,jack.anderson155@example.com,61,407.94,ACTIVE,usa,2023-08-13,ReciÃ©ved partial refund,,north
+157,carol white,carol.white156@example.com,19,?,active,U.S.A.,"July 05, 2024",test,,north
+158,  Grace Wilson  ,grace.wilson157@mail.com,63,315.44,Active,United States,07/26/2024,Rejected – invalid coupon,,north
+159,hank moore,hank.moore158@example.com,56,359.26,Active,U.S.A.,2023-01-02,Customer requested faster shipping.,,north
+160,BOB SMITH,,28,439.23,active,uk,2023-03-10,México office follow-up,,north
+161,eve davis,eve.davis160@test.org,?,452.14,active,UK,06/14/2024,Customer requested faster shipping.,,north
+162,Carol White,carol.white161@test.org,999,438.3,Active,United States,24-11-2023,Customer requested faster shipping.,,north
+163,Ivy Taylor,ivy.taylor162@test.org,58,69.76,Inactive,United Kingdom,01-08-2024,Customer requested faster shipping.,,north
+164,FRANK MILLER,frank.miller163@test.org,37,83.07,Active,UK,"July 22, 2024",�� corrupted note �,,north
+165,Hank  Moore,hank.moore164@test.org,18,248.71,inactive,uk,17-01-2024,test,,north
+166,  Jack Anderson  ,jack.anderson165@mail.com,69,-250.0,Active,usa,21-03-2023,México office follow-up,,north
+167,Bob  Smith,bob.smith166@example.com,60,,active,uk,05/18/2024,sample,,north
+168,Eve  Davis,eve.davis167@mail.com,,226.09,active,USA,2023-09-13,Customer requested faster shipping.,,north
+169,david brown,david.brown168@test.org,33,121.7,Active,USA,03-01-2023,Customer requested faster shipping.,,north
+170,Bob Smith,bob.smith169@test.org,81,1000000.0,Active,usa,07/22/2024,Café latte discount applied,,north
+171,  Hank Moore  ,hank.moore170@mail.com,62,30.48,active,usa,13-08-2024,test,,north
+172,Carol  White,carol.white171@test.org,56,207.66,Active,United States,2024-09-28,test,,north
+173,Eve  Davis,eve.davis172@test.org,67,363.85,active,United States,07/01/2024,sample,,north
+174,alice johnson,alice.johnson173@example.com,40,131.16, Active,UK,18-07-2023,test,,north
+175,HANK MOORE,hank.moore174@example.com,85,131.54,Active,uk,22-06-2023,lorem ipsum dolor sit amet,,north
+176,  Grace Wilson  ,grace.wilson175@test.org,87,291.13,active,United Kingdom,10-04-2024,�� corrupted note �,,north
+177,Alice Johnso,alice.johnso176@mail.com,,496.27, Active,U.S.A.,08/22/2023,test,,north
+178,Grace Wilso,grace.wilso177@mail.com,60,188.42, Active,U.S.A.,"November 26, 2024",Customer requested faster shipping.,,north
+179,Ivy Taylo,ivy.taylo178@example.com,18,129.08,Active,U.S.A.,25-09-2023,México office follow-up,,north
+180,IVY TAYLOR,ivy.taylor179@mail.com,67,64.83,Inactive,USA,13-03-2023,sample,,north
+181,Jack Anderson,jack.anderson180@mail.com,43,247.84, Active,United States,06-04-2024,,,north
+182,Grace Wilso,,-5,164.63,active,United States,2024-06-02,lorem ipsum dolor sit amet,,north
+183,Hank Moore,hank.moore182@mail.com,78,56.35,Active,uk,05/03/2023,México office follow-up,,north
+184,Ivy  Taylor,ivy.taylor183@mail.com,38,472.79,Active,United Kingdom,"April 09, 2023",Rejected – invalid coupon,,north
+185,Ivy Taylor,ivy.taylor184@test.org,19,258.7,Active,United Kingdom,08-09-2024,Customer requested faster shipping.,,north
+186,CAROL WHITE,carol.white185@example.com,,274.01,Inactive,UK,05/15/2024,Customer requested faster shipping.,,north
+187,BOB SMITH,bob.smith186@example.com,50,25.07,active,USA,"April 01, 2023",sample,,north
+188,EVE DAVIS,eve.davis187@example.com,44,268.7,ACTIVE,uk,2024-02-21,México office follow-up,,north
+189,carol white,carol.white188@mail.com,999,327.12,Active,United Kingdom,26-04-2024,Customer requested faster shipping.,,north
+190,hank moore,hank.moore189@test.org,unknown,235.01, Active,United States,08/12/2024,Café latte discount applied,,north
+191,jack anderson,jack.anderson190@example.com,48,431.78,active,UK,"March 15, 2023",Customer requested faster shipping.,,north
+192,Jack  Anderson,jack.anderson191@example.com,-,477.92,Active,uk,"April 10, 2023",urgent,,north
+193,CAROL WHITE,carol.white192@test.org,58,335.49, Active,uk,13-10-2024,sample,,north
+194,David  Brown,david.brown193@example.com,,12.86,active,United Kingdom,29-09-2023,Customer requested faster shipping.,,north
+195,BOB SMITH,bob.smith194@test.org,44,358.07,Inactive,uk,06/18/2024,México office follow-up,,north
+196,Bob Smit,bob.smit195@test.org,37,141.57,Active,USA,11-07-2024,sample,,north
+197,ALICE JOHNSON,alice.johnson196@test.org,24,-250.0,active,usa,03/31/2024,Café latte discount applied,,north
+198,eve davis,eve.davis197@test.org,49,,Active,United Kingdom,2024-01-12,Café latte discount applied,,north
+199,Frank Miller,frank.miller198@mail.com,unknown,405.77,active,United Kingdom,01-01-2024,Rejected – invalid coupon,,north
+200,Ivy  Taylor,ivy.taylor199@example.com,61,138.5,Active,U.S.A.,"September 23, 2024",Customer requested faster shipping.,,north
+201,Grace Wilso,grace.wilso200@test.org,40,160.35,Active,UK,09/04/2024,sample,,north
+202,Eve  Davis,eve.davis201@test.org,44,141.99,Active,U.S.A.,01/13/2024,Rejected – invalid coupon,,north
+203,Carol  White,carol.white202@example.com,53,13.83,active,United Kingdom,03/06/2024,lorem ipsum dolor sit amet,,north
+204,carol white,carol.white203@mail.com,36,20.38,active,USA,02-04-2024,México office follow-up,,north
+205,Hank  Moore,hank.moore204@test.org,84,286.72,Active,USA,12-04-2023,lorem ipsum dolor sit amet,,north
+206,DAVID BROWN,david.brown205@example.com,86,420.07,Active,U.S.A.,05-05-2024,Customer requested faster shipping.,,north
+207,Carol Whit,carol.whit206@mail.com,68,138.25,active,U.S.A.,2023-05-25,lorem ipsum dolor sit amet,,north
+208,Eve Davis,eve.davis207@test.org,84,387.38, Active,United Kingdom,06/30/2023,Customer requested faster shipping.,,north
+209,Jack Anderson,-,29,412.74, Active,uk,2023-03-21,Customer requested faster shipping.,,north
+210,ALICE JOHNSON,alice.johnson209@example.com,36,478.42,ACTIVE,United States,"August 29, 2023",Rejected – invalid coupon,,north
+211,  Frank Miller  ,frank.miller210@example.com,56,139.77,Active,usa,31-05-2023,Customer requested faster shipping.,,north
+212,ivy taylor,ivy.taylor211@example.com,34,132.33,ACTIVE,UK,"December 27, 2023",lorem ipsum dolor sit amet,,north
+213,BOB SMITH,bob.smith212@example.com,46,133.76,Active,United States,03/22/2024,,,north
+214,David  Brown,david.brown213@test.org,86,16.62,inactive,United States,"March 13, 2023",Customer requested faster shipping.,,north
+215,Bob Smit,bob.smit214@test.org,60,,Active,United Kingdom,12/02/2023,Customer requested faster shipping.,,north
+216,david brown,david.brown215@test.org,61,414.66,active,U.S.A.,2024-01-08,sample,,north
+217,Grace Wilson,grace.wilson216@example.com,75,27.94,Inactive,United States,03-04-2024,ReciÃ©ved partial refund,,south
+218,Eve Davi,eve.davi217@example.com,?,266.68,Inactive,usa,09/03/2023,ReciÃ©ved partial refund,,north
+219,DAVID BROWN,david.brown218@example.com,22,,Active,U.S.A.,04/08/2023,Customer requested faster shipping.,,north
+220,Ivy Taylo,ivy.taylo219@mail.com,55,157.77,ACTIVE,usa,"May 09, 2023",sample,,north
+221,Hank Moore,hank.moore220@example.com,48,474.22,Active,USA,23-11-2023,test,,north
+222,eve davis,eve.davis221@mail.com,20,111.77,Active,usa,"October 19, 2023",Customer requested faster shipping.,,north
+223,Frank  Miller,frank.miller222@mail.com,57,241.81,Active,United States,09/09/2023,México office follow-up,,north
+224,David  Brown,david.brown223@mail.com,56,225.47,Active,uk,11-05-2024,Customer requested faster shipping.,,north
+225,Carol  White,carol.white224@mail.com,38,285.68, Active,uk,08/15/2024,Customer requested faster shipping.,,north
+226,HANK MOORE,?,21,47.22,ACTIVE,United States,11-09-2024,�� corrupted note �,,north
+227,Eve  Davis,none,28,,active,United States,"April 20, 2023",Customer requested faster shipping.,,north
+228,Alice  Johnson,alice.johnson227@test.org,60,465.04,Active,usa,16-12-2023,Rejected – invalid coupon,,north
+229,Jack Anderso,jack.anderso228@example.com,unknown,186.37,Active,U.S.A.,"April 15, 2024",Customer requested faster shipping.,,north
+230,Grace Wilso,,-,443.65,ACTIVE,USA,07-10-2023,�� corrupted note �,,north
+231,david brown,david.brown230@mail.com,50,271.42,Active,usa,2024-08-14,,,north
+232,Alice Johnso,alice.johnso231@test.org,89,189.75,Active,usa,"July 30, 2024",Café latte discount applied,,north
+233,David Brown,david.brown232@example.com,84,66.41,active,United States,"May 19, 2024",México office follow-up,,north
+234,Eve Davis,eve.davis233@test.org,39,328.13,Inactive,UK,29-08-2024,test,,north
+235,BOB SMITH,bob.smith234@example.com,74,414.95,active,UK,11/28/2024,,,north
+236,DAVID BROWN,david.brown235@test.org,47,328.03, Active,U.S.A.,"May 30, 2024",Rejected – invalid coupon,,north
+237,Eve  Davis,eve.davis236@test.org,unknown,260.66,Active,USA,"March 30, 2023",Rejected – invalid coupon,,south
+238,grace wilson,grace.wilson237@example.com,62,175.65,ACTIVE,uk,04-02-2024,Customer requested faster shipping.,,north
+239,Bob  Smith,bob.smith238@mail.com,,68.27,ACTIVE,USA,2024-08-07,lorem ipsum dolor sit amet,,north
+240,Grace Wilson,grace.wilson239@example.com,44,243.66,ACTIVE,United States,16-11-2023,,,north
+241,  Ivy Taylor  ,ivy.taylor240@example.com,,486.03,Active,U.S.A.,"June 09, 2024",Customer requested faster shipping.,,north
+242,bob smith,bob.smith241@mail.com,31,127.42,active,USA,11/05/2023,sample,,north
+243,  Ivy Taylor  ,ivy.taylor242@example.com,64,479.65,Active,U.S.A.,04/01/2024,lorem ipsum dolor sit amet,,north
+244,Jack  Anderson,jack.anderson243@test.org,,332.92,Active,United States,"September 03, 2023",ReciÃ©ved partial refund,,north
+245,FRANK MILLER,frank.miller244@test.org,67,258.82,Active,usa,2024-03-30,lorem ipsum dolor sit amet,,north
+246,  Frank Miller  ,frank.miller245@mail.com,46,,active,UK,2024-01-20,ReciÃ©ved partial refund,,north
+247,IVY TAYLOR,ivy.taylor246@mail.com,-5,154.42,Inactive,U.S.A.,03/15/2023,Rejected – invalid coupon,,north
+248,Bob  Smith,none,unknown,296.65,Active,usa,2024-03-12,�� corrupted note �,,north
+249,Grace Wilso,grace.wilso248@mail.com,79,354.56,ACTIVE,United States,2023-09-17,test,,north
+250,  Frank Miller  ,frank.miller249@test.org,77,56.28,ACTIVE,U.S.A.,2023-02-08,�� corrupted note �,,north
+251,  David Brown  ,david.brown250@example.com,50,436.29,Active,UK,05/17/2024,urgent,,north
+252,Grace  Wilson,grace.wilson251@example.com,52,273.69,ACTIVE,United Kingdom,"June 01, 2023",Café latte discount applied,,north
+253,carol white,carol.white252@mail.com,,,Active,uk,02/21/2023,ReciÃ©ved partial refund,,north
+254,hank moore,hank.moore253@mail.com,56,366.43,Active,uk,"December 28, 2023",lorem ipsum dolor sit amet,,south
+255,carol white,carol.white254@mail.com,42,472.67,ACTIVE,United States,2024-08-09,Café latte discount applied,,north
+256,  Ivy Taylor  ,ivy.taylor255@test.org,71,433.32,Active,USA,07/10/2023,Customer requested faster shipping.,,north
+257,FRANK MILLER,frank.miller256@example.com,35,323.76,Inactive,United States,19-08-2024,test,,north
+258,David Brow,david.brow257@example.com,61,82.79,active,usa,"April 01, 2024",ReciÃ©ved partial refund,,north
+259,Hank  Moore,hank.moore258@mail.com,30,247.7,active,UK,"July 15, 2023",lorem ipsum dolor sit amet,,north
+260,ivy taylor,ivy.taylor259@mail.com,-,99.83,Inactive,U.S.A.,"February 09, 2023",sample,,north
+261,BOB SMITH,bob.smith260@mail.com,86,240.16,active,United States,10-08-2024,lorem ipsum dolor sit amet,,north
+262,Bob Smit,bob.smit261@test.org,32,289.12,active,United Kingdom,2024-09-04,Customer requested faster shipping.,,north
+263,JACK ANDERSON,jack.anderson262@mail.com,  ,457.62,active,USA,"September 11, 2023",Customer requested faster shipping.,,north
+264,FRANK MILLER,,20,490.21,Active,uk,2024-06-29,Customer requested faster shipping.,,north
+265,IVY TAYLOR,ivy.taylor264@test.org,63,372.46,Active,United States,2024-10-20,Customer requested faster shipping.,,north
+266,GRACE WILSON,grace.wilson265@test.org,38,175.26,Active,U.S.A.,02/13/2024,�� corrupted note �,,north
+267,Hank Moore,hank.moore266@test.org,,132.97,Inactive,U.S.A.,"August 31, 2023",sample,,north
+268,hank moore,hank.moore267@mail.com,,85.43,active,uk,09/02/2024,sample,,north
+269,ivy taylor,ivy.taylor268@example.com,76,205.37,ACTIVE,USA,2024-05-26,Rejected – invalid coupon,,north
+270,Hank Moor,hank.moor269@test.org,,476.53,Active,U.S.A.,02/11/2024,Café latte discount applied,,north
+271,Eve  Davis,eve.davis270@example.com,69,184.48,ACTIVE,USA,2024-02-02,Rejected – invalid coupon,,north
+272,ivy taylor,ivy.taylor271@mail.com,31,57.75,Active,USA,20-10-2023,�� corrupted note �,,north
+273,  Alice Johnson  ,alice.johnson272@example.com,69,308.81,Active,uk,03-06-2023,Customer requested faster shipping.,,north
+274,Bob Smith,bob.smith273@example.com,71,232.04,Inactive,United Kingdom,2023-01-16,Customer requested faster shipping.,,north
+275,  Ivy Taylor  ,ivy.taylor274@example.com,56,371.54,ACTIVE,USA,"January 16, 2024",Customer requested faster shipping.,,north
+276,David Brow,david.brow275@mail.com,?,364.69,active,UK,"December 05, 2023",Café latte discount applied,,north
+277,EVE DAVIS,eve.davis276@test.org,65,104.9,Active,usa,17-06-2023,Customer requested faster shipping.,,north
+278,Grace Wilso,grace.wilso277@example.com,88,409.54,Active,UK,2023-11-30,Café latte discount applied,,north
+279,Alice Johnso,-,36,242.91, Active,United States,05-08-2023,Customer requested faster shipping.,,north
+280,Frank Mille,frank.mille279@mail.com,,385.35,Active,USA,2024-09-03,,,north
+281,Ivy Taylo,ivy.taylo280@test.org,58,223.75,active,United Kingdom,07-05-2024,test,,north
+282,  David Brown  ,david.brown281@example.com,57,,Active,uk,03-11-2024,test,,north
+283,HANK MOORE,hank.moore282@test.org,21,110.47,Inactive,U.S.A.,"October 13, 2024",Customer requested faster shipping.,,north
+284,Carol  White,carol.white283@test.org,22,343.06,active,United Kingdom,2023-10-17,Rejected – invalid coupon,,north
+285,Jack Anderso,jack.anderso284@example.com,,378.94,Active,United States,"August 14, 2024",sample,,north
+286,ivy taylor,ivy.taylor285@mail.com,32,409.99,active,usa,"February 24, 2024",Café latte discount applied,,north
+287,carol white,carol.white286@mail.com,61,238.08,active,United Kingdom,21-09-2024,ReciÃ©ved partial refund,,north
+288,Hank  Moore,hank.moore287@test.org,79,-250.0,inactive,U.S.A.,12-07-2023,lorem ipsum dolor sit amet,,north
+289,Carol Whit,carol.whit288@test.org,74,133.09,inactive,USA,03/22/2023,Café latte discount applied,,north
+290,Grace Wilson,grace.wilson289@test.org,86,43.05, Active,United Kingdom,11-02-2023,sample,,north
+291,FRANK MILLER,frank.miller290@mail.com,unknown,485.59,active,uk,08/03/2024,Customer requested faster shipping.,,north
+292,ivy taylor,ivy.taylor291@mail.com,75,394.94,Inactive,uk,"June 01, 2023",Customer requested faster shipping.,,north
+293,Alice Johnso,alice.johnso292@mail.com,36,321.17,Active,usa,2023-08-29,Customer requested faster shipping.,,north
+294,Eve  Davis,eve.davis293@test.org,,,Active,USA,25-07-2023,Customer requested faster shipping.,,north
+295,Bob Smit,bob.smit294@example.com,46,353.75,active,United Kingdom,"September 10, 2024",Café latte discount applied,,north
+296,Eve Davis,eve.davis295@mail.com,43,, Active,USA,01/07/2023,México office follow-up,,north
+297,Grace Wilson,grace.wilson296@test.org,47,118.38,Active,usa,2024-04-14,lorem ipsum dolor sit amet,,north
+298,Hank Moore,hank.moore297@test.org,33,,Active,UK,07/24/2024,Customer requested faster shipping.,,north
+299,Alice Johnso,alice.johnso298@example.com,,?,ACTIVE,U.S.A.,2023-12-16,urgent,,north
+300,  Grace Wilson  ,grace.wilson299@example.com,45,410.88,Active,usa,2024-01-01,Customer requested faster shipping.,,north
+301,David  Brown,david.brown300@example.com,,297.78,Inactive,usa,"July 30, 2024",Café latte discount applied,,north
+302,bob smith,bob.smith301@test.org,unknown,89.83,Active,usa,2023-02-27,México office follow-up,,north
+303,Ivy Taylo,ivy.taylo302@mail.com,  ,271.86, Active,uk,"October 03, 2024",sample,,north
+304,Frank Mille,frank.mille303@test.org,56,161.3,active,UK,13-05-2023,Customer requested faster shipping.,,north
+305,David Brow,david.brow304@test.org,28,,Inactive,United States,2024-05-07,Café latte discount applied,,north
+306,  Carol White  ,carol.white305@test.org,39,310.25,ACTIVE,usa,22-11-2023,Rejected – invalid coupon,,north
+307,  Bob Smith  ,bob.smith306@test.org,77,264.13,ACTIVE,U.S.A.,"January 07, 2024",Rejected – invalid coupon,,north
+308,  David Brown  ,david.brown307@mail.com,31,435.62,Active,uk,"November 11, 2023",sample,,north
+309,EVE DAVIS,eve.davis308@example.com,,1000000.0,Active,usa,2023-03-16,Café latte discount applied,,north
+310,David Brown,david.brown309@example.com,,382.54,active,uk,2024-03-13,,,north
+311,Eve  Davis,eve.davis310@example.com,  ,279.81,Active,United States,"January 06, 2023",lorem ipsum dolor sit amet,,north
+312,  Bob Smith  ,bob.smith311@mail.com,30,58.48,inactive,U.S.A.,28-12-2023,Rejected – invalid coupon,,north
+313,Jack  Anderson,jack.anderson312@test.org,30,133.55,active,UK,2024-09-25,,,north
+314,Alice Johnso,alice.johnso313@test.org,-5,225.3, Active,usa,07-04-2023,lorem ipsum dolor sit amet,,north
+315,  Hank Moore  ,hank.moore314@test.org,61,456.67,Active,U.S.A.,04/28/2023,México office follow-up,,north
+316,Alice Johnso,alice.johnso315@mail.com,36,301.5,Active,United Kingdom,"April 18, 2024",Café latte discount applied,,north
+317,Carol White,carol.white316@mail.com,44,485.81,Active,United Kingdom,23-08-2023,lorem ipsum dolor sit amet,,north
+318,  David Brown  ,david.brown317@example.com,30,163.96,Active,usa,"May 31, 2024",lorem ipsum dolor sit amet,,north
+319,HANK MOORE,hank.moore318@example.com,57,459.26, Active,United Kingdom,10/16/2024,Customer requested faster shipping.,,north
+320,Alice Johnso,alice.johnso319@example.com,53,115.15, Active,usa,19-04-2024,ReciÃ©ved partial refund,,north
+321,Jack Anderson,jack.anderson320@example.com,unknown,279.22, Active,uk,13-02-2024,México office follow-up,,north
+322,BOB SMITH,bob.smith321@test.org,20,130.49,Active,uk,25-10-2024,Customer requested faster shipping.,,north
+323,David Brow,,42,301.21, Active,USA,08/22/2024,lorem ipsum dolor sit amet,,north
+324,Jack Anderso,jack.anderso323@mail.com,37,80.01,Active,uk,07/07/2023,,,north
+325,David Brown,david.brown324@mail.com,29,13.84, Active,United States,26-03-2024,ReciÃ©ved partial refund,,north
+326,CAROL WHITE,carol.white325@example.com,48,111.19,Active,USA,2023-03-17,urgent,,north
+327,EVE DAVIS,eve.davis326@mail.com,unknown,-250.0,inactive,United States,10/05/2024,lorem ipsum dolor sit amet,,north
+328,Grace Wilson,grace.wilson327@mail.com,79,47.84,ACTIVE,United States,22-08-2024,Customer requested faster shipping.,,north
+329,BOB SMITH,bob.smith328@example.com,75,293.87,Inactive,usa,"January 05, 2024",Customer requested faster shipping.,,north
+330,bob smith,?,42,301.87,ACTIVE,U.S.A.,10/19/2024,test,,north
+331,Frank  Miller,frank.miller330@example.com,72,320.09,active,usa,07-10-2024,sample,,north
+332,  Jack Anderson  ,?,73,499.96,Active,United States,"July 21, 2024",test,,north
+333,Jack Anderso,jack.anderso332@example.com,44,485.56,inactive,UK,02/20/2023,,,north
+334,ivy taylor,,24,-250.0,active,UK,2024-11-08,ReciÃ©ved partial refund,,north
+335,Eve Davis,eve.davis334@example.com,51,-,Active,usa,2024-11-19,test,,north
+336,hank moore,hank.moore335@test.org,72,412.19,Active,usa,03/29/2023,,,north
+337,Ivy Taylo,?,73,344.21,inactive,United States,04/19/2024,Customer requested faster shipping.,,north
+338,BOB SMITH,bob.smith337@example.com,75,113.53,active,UK,2024-02-24,Customer requested faster shipping.,,north
+339,  Carol White  ,,80,171.85,Active,UK,2023-02-14,sample,,north
+340,BOB SMITH,bob.smith339@mail.com,85,260.39,Active,uk,05/07/2023,Customer requested faster shipping.,,north
+341,bob smith,bob.smith340@example.com,unknown,-250.0, Active,uk,2024-10-21,Café latte discount applied,,north
+342,david brown,david.brown341@test.org,30,20.11,active,U.S.A.,"March 18, 2024",urgent,,north
+343,Eve Davi,eve.davi342@test.org,76,206.07,Active,uk,2023-08-21,test,,north
+344,  Carol White  ,carol.white343@example.com,81,247.81, Active,U.S.A.,2024-02-07,,,north
+345,HANK MOORE,hank.moore344@mail.com,66,236.1,active,United States,22-03-2023,,,north
+346,Jack Anderson,jack.anderson345@mail.com,52,433.04,Active,USA,12-02-2024,Café latte discount applied,,north
+347,Carol White,carol.white346@mail.com,81,14.88,Active,United States,02/06/2024,ReciÃ©ved partial refund,,north
+348,Carol White,carol.white347@test.org,79,177.82,inactive,USA,04/20/2023,ReciÃ©ved partial refund,,north
+349,grace wilson,grace.wilson348@test.org,unknown,127.81,ACTIVE,usa,25-04-2023,ReciÃ©ved partial refund,,north
+350,  Alice Johnson  ,alice.johnson349@test.org,24,111.84,Active,UK,2023-10-03,Rejected – invalid coupon,,north
+351,hank moore,hank.moore350@test.org,46,335.82, Active,UK,2024-01-06,test,,north
+352,FRANK MILLER,frank.miller351@test.org,75,282.58,Inactive,UK,06/04/2024,México office follow-up,,north
+353,EVE DAVIS,eve.davis352@mail.com,76,342.08,ACTIVE,UK,2023-01-03,Customer requested faster shipping.,,north
+354,Jack  Anderson,jack.anderson353@example.com,21,89.68,Active,usa,2024-02-15,Customer requested faster shipping.,,north
+355,IVY TAYLOR,,31,215.02,Inactive,usa,2024-03-21,Customer requested faster shipping.,,north
+356,bob smith,bob.smith355@test.org,36,219.15,Inactive,UK,08-09-2023,urgent,,north
+357,Frank Miller,frank.miller356@example.com,84,47.74, Active,UK,"February 12, 2023",lorem ipsum dolor sit amet,,north
+358,  Grace Wilson  ,grace.wilson357@example.com,78,409.72, Active,usa,28-06-2023,Customer requested faster shipping.,,north
+359,jack anderson,jack.anderson358@example.com,,295.0,active,USA,"July 18, 2024",lorem ipsum dolor sit amet,,north
+360,Bob Smit,bob.smit359@test.org,71,94.48,active,U.S.A.,2023-12-19,México office follow-up,,north
+361,ivy taylor,ivy.taylor360@example.com,,450.12, Active,usa,16-11-2024,Customer requested faster shipping.,,north
+362,Carol  White,carol.white361@test.org,37,449.46,active,uk,"April 06, 2024",Customer requested faster shipping.,,north
+363,hank moore,hank.moore362@mail.com,38,12.04,Active,UK,16-02-2024,Customer requested faster shipping.,,north
+364,Ivy  Taylor,ivy.taylor363@mail.com,46,117.22, Active,U.S.A.,2023-11-08,test,,north
+365,Hank  Moore,hank.moore364@example.com,45,-250.0,active,uk,"November 13, 2024",sample,,north
+366,Eve  Davis,eve.davis365@test.org,73,?,active,uk,"December 05, 2023",Customer requested faster shipping.,,north
+367,  Jack Anderson  ,jack.anderson366@mail.com,34,-, Active,U.S.A.,08-05-2023,,,north
+368,Jack Anderso,jack.anderso367@test.org,88,418.74,Active,U.S.A.,07/14/2023,Customer requested faster shipping.,,north
+369,Bob Smith,bob.smith368@mail.com,20,304.58,ACTIVE,UK,2023-11-21,Customer requested faster shipping.,,north
+370,david brown,david.brown369@test.org,52,253.44,ACTIVE,usa,2023-04-15,Customer requested faster shipping.,,north
+371,CAROL WHITE,carol.white370@test.org,49,104.84,Active,United Kingdom,2023-10-31,Customer requested faster shipping.,,north
+372,DAVID BROWN,,73,8.21,Active,United States,"January 07, 2023",�� corrupted note �,,north
+373,Frank Miller,frank.miller372@example.com,60,272.55,ACTIVE,USA,2024-03-24,Customer requested faster shipping.,,north
+374,Jack Anderson,jack.anderson373@example.com,58,347.34,ACTIVE,United States,12/09/2023,test,,north
+375,carol white,carol.white374@example.com,45,8.66,inactive,UK,2023-06-30,Customer requested faster shipping.,,north
+376,Grace Wilson,grace.wilson375@test.org,,186.7,active,usa,2023-12-21,Café latte discount applied,,north
+377,ivy taylor,ivy.taylor376@example.com,54,437.25,Inactive,USA,10/07/2024,sample,,north
+378,Hank  Moore,hank.moore377@mail.com,49,16.74,Inactive,UK,2023-10-24,Customer requested faster shipping.,,north
+379,  Eve Davis  ,none,58,6.05, Active,UK,2023-09-27,Café latte discount applied,,north
+380,Frank Miller,frank.miller379@example.com,38,178.48,Inactive,usa,2024-04-29,México office follow-up,,north
+381,HANK MOORE,hank.moore380@example.com,57,197.96,Inactive,UK,2023-01-20,Customer requested faster shipping.,,north
+382,hank moore,hank.moore381@mail.com,66,426.63,active,United States,2023-01-18,Customer requested faster shipping.,,south
+383,David  Brown,david.brown382@test.org,  ,363.6,active,United States,12-01-2024,�� corrupted note �,,north
+384,JACK ANDERSON,jack.anderson383@example.com,,263.43,Active,usa,08/03/2024,México office follow-up,,north
+385,frank miller,frank.miller384@mail.com,39,244.74,active,United States,04/26/2023,Customer requested faster shipping.,,north
+386,  Jack Anderson  ,jack.anderson385@example.com,38,411.92,active,United States,11/01/2024,Café latte discount applied,,north
+387,Ivy Taylor,ivy.taylor386@example.com,  ,75.48,Active,uk,01/04/2023,Customer requested faster shipping.,,north
+388,Bob Smit,bob.smit387@test.org,-5,383.95,active,United Kingdom,14-10-2024,sample,,north
+389,Hank Moor,hank.moor388@test.org,50,315.31,Active,USA,28-11-2023,México office follow-up,,north
+390,Jack Anderso,jack.anderso389@example.com,51,450.17,active,U.S.A.,02/19/2023,Customer requested faster shipping.,,north
+391,Ivy Taylo,ivy.taylo390@mail.com,83,423.12,Active,USA,"November 08, 2024",sample,,north
+392,Carol White,carol.white391@test.org,-,77.99, Active,uk,02/10/2024,Café latte discount applied,,north
+393,Hank Moor,hank.moor392@example.com,74,395.15,active,United States,22-04-2024,Customer requested faster shipping.,,north
+394,Jack Anderso,jack.anderso393@test.org,47,-,Active,USA,2023-01-23,Café latte discount applied,,north
+395,david brown,david.brown394@example.com,69,260.48,active,UK,07/02/2023,Customer requested faster shipping.,,north
+396,david brown,david.brown395@mail.com,32,180.44, Active,United Kingdom,22-12-2023,Customer requested faster shipping.,,north
+397,Alice Johnso,alice.johnso396@test.org,89,162.62,ACTIVE,U.S.A.,04-01-2023,Customer requested faster shipping.,,north
+398,HANK MOORE,hank.moore397@test.org,28,349.54,Active,U.S.A.,26-04-2024,Customer requested faster shipping.,,north
+399,David Brown,david.brown398@test.org,69,368.1,Inactive,U.S.A.,02/21/2024,Customer requested faster shipping.,,north
+400,Ivy  Taylor,ivy.taylor399@test.org,84,421.04,Active,United States,04/17/2024,México office follow-up,,north
+401,jack anderson,jack.anderson400@example.com,25,,Active,USA,"June 14, 2024",Customer requested faster shipping.,,north
+402,Ivy Taylor,ivy.taylor401@test.org,61,392.98,active,usa,"July 02, 2024",test,,north
+403,FRANK MILLER,frank.miller402@mail.com,59,318.17,ACTIVE,uk,11/23/2024,Café latte discount applied,,north
+404,Carol  White,carol.white403@test.org,20,73.41,Active,U.S.A.,08-10-2024,�� corrupted note �,,north
+405,CAROL WHITE,,24,338.4,Active,UK,"October 07, 2023",Customer requested faster shipping.,,north
+406,Bob Smith,bob.smith405@example.com,40,161.12,inactive,United States,05/15/2023,Café latte discount applied,,north
+407,David  Brown,david.brown406@example.com,77,210.31,active,UK,07/12/2023,Customer requested faster shipping.,,north
+408,Eve Davi,eve.davi407@mail.com,,70.64,ACTIVE,UK,22-09-2023,Customer requested faster shipping.,,north
+409,bob smith,bob.smith408@example.com,48,325.29,Active,UK,01-03-2023,lorem ipsum dolor sit amet,,north
+410,Frank Mille,frank.mille409@mail.com,34,46.16,active,usa,2024-02-15,�� corrupted note �,,north
+411,Eve Davi,eve.davi410@mail.com,24,96.35,active,uk,05/31/2023,Café latte discount applied,,north
+412,Ivy  Taylor,ivy.taylor411@mail.com,27,239.43, Active,United States,06/21/2023,Customer requested faster shipping.,,north
+413,Ivy Taylor,ivy.taylor412@mail.com,84,111.69,active,United States,01-07-2023,sample,,north
+414,  Carol White  ,carol.white413@mail.com,53,,active,U.S.A.,26-02-2023,�� corrupted note �,,north
+415,  Carol White  ,carol.white414@example.com,81,59.71,Active,United States,"May 18, 2023",Café latte discount applied,,north
+416,Alice Johnso,alice.johnso415@example.com,18,182.97,Active,UK,2024-07-27,,,north
+417,Carol White,carol.white416@example.com,unknown,144.42, Active,UK,09-11-2023,México office follow-up,,north
+418,  Hank Moore  ,hank.moore417@test.org,38,411.3,inactive,U.S.A.,"December 30, 2023",Customer requested faster shipping.,,north
+419,Eve Davi,eve.davi418@example.com,71,65.59,inactive,United States,2024-05-02,ReciÃ©ved partial refund,,north
+420,eve davis,eve.davis419@example.com,unknown,95.79,active,uk,06-07-2024,Customer requested faster shipping.,,north
+421,Alice  Johnson,alice.johnson420@example.com,30,192.12,Active,United Kingdom,25-02-2024,,,north
+422,Frank Mille,frank.mille421@example.com,52,203.04,Active,uk,"December 26, 2023",lorem ipsum dolor sit amet,,north
+423,BOB SMITH,-,32,419.44,Active,U.S.A.,"September 17, 2023",urgent,,north
+424,Hank Moor,hank.moor423@mail.com,80,-250.0,inactive,uk,2024-05-02,test,,north
+425,HANK MOORE,hank.moore424@test.org,34,237.47,active,uk,2023-03-08,�� corrupted note �,,north
+426,Grace Wilson,grace.wilson425@example.com,-,138.49,active,United Kingdom,11/05/2023,lorem ipsum dolor sit amet,,north
+427,  Hank Moore  ,hank.moore426@mail.com,65,282.11,active,USA,04/10/2024,sample,,north
+428,  Eve Davis  ,eve.davis427@test.org,29,475.68,Active,uk,"March 12, 2023",urgent,,north
+429,Alice Johnso,alice.johnso428@example.com,26,313.21,active,uk,06/20/2023,�� corrupted note �,,north
+430,Frank  Miller,frank.miller429@example.com,52,398.52,active,United Kingdom,04/22/2024,Customer requested faster shipping.,,north
+431,Jack Anderso,jack.anderso430@test.org,23,122.78,Active,United States,11-07-2024,México office follow-up,,north
+432,JACK ANDERSON,jack.anderson431@test.org,33,261.18,active,UK,2023-09-27,Café latte discount applied,,north
+433,Jack  Anderson,jack.anderson432@example.com,41,93.77, Active,uk,09/25/2024,Customer requested faster shipping.,,north
+434,Eve  Davis,eve.davis433@test.org,20,427.29, Active,U.S.A.,2023-04-04,sample,,north
+435,Alice Johnson,alice.johnson434@mail.com,58,273.77,Active,United States,"October 19, 2023",sample,,north
+436,GRACE WILSON,grace.wilson435@test.org,35,23.77,active,UK,"May 08, 2024",Rejected – invalid coupon,,north
+437,  Jack Anderson  ,jack.anderson436@test.org,83,303.78,ACTIVE,USA,"March 05, 2023",ReciÃ©ved partial refund,,north
+438,Bob  Smith,bob.smith437@mail.com,68,188.63,ACTIVE,United Kingdom,2023-11-21,,,north
+439,Alice  Johnson,,-5,203.8,Active,U.S.A.,"February 04, 2023",test,,north
+440,HANK MOORE,hank.moore439@example.com,74,196.85, Active,United States,27-05-2023,Customer requested faster shipping.,,north
+441,Hank  Moore,hank.moore440@test.org,87,348.19,active,usa,25-06-2023,lorem ipsum dolor sit amet,,north
+442,david brown,david.brown441@test.org,77,146.14,Active,United Kingdom,2023-09-19,Customer requested faster shipping.,,south
+443,alice johnson,alice.johnson442@mail.com,62,141.76,Active,United States,07/29/2023,lorem ipsum dolor sit amet,,north
+444,Carol White,carol.white443@mail.com,61,,Active,United Kingdom,25-10-2023,Customer requested faster shipping.,,north
+445,frank miller,frank.miller444@test.org,31,483.75,active,USA,"March 16, 2023",Customer requested faster shipping.,,north
+446,  Hank Moore  ,hank.moore445@example.com,53,52.7,ACTIVE,U.S.A.,16-03-2023,lorem ipsum dolor sit amet,,north
+447,Ivy Taylo,ivy.taylo446@mail.com,,49.5,active,U.S.A.,"April 28, 2024",Customer requested faster shipping.,,north
+448,Jack Anderso,jack.anderso447@example.com,80,-,Active,USA,2023-03-15,Customer requested faster shipping.,,north
+449,Bob  Smith,bob.smith448@example.com,54,452.54,Active,U.S.A.,2023-06-07,Rejected – invalid coupon,,north
+450,Eve Davi,,81,423.0,Active,United States,25-01-2023,Customer requested faster shipping.,,north
+451,  Bob Smith  ,bob.smith450@example.com,85,135.21, Active,usa,06/17/2024,�� corrupted note �,,north
+452,Ivy  Taylor,ivy.taylor451@test.org,71,193.02,Active,usa,11/26/2023,Customer requested faster shipping.,,south
+453,Alice Johnso,alice.johnso452@test.org,77,,active,uk,22-01-2023,Customer requested faster shipping.,,north
+454,David Brow,david.brow453@example.com,77,205.07,Active,U.S.A.,"July 25, 2024",Customer requested faster shipping.,,north
+455,Grace  Wilson,grace.wilson454@test.org,81,89.77,active,USA,10/13/2024,lorem ipsum dolor sit amet,,north
+456,  Eve Davis  ,,57,283.3,Active,U.S.A.,01-02-2023,,,north
+457,Bob  Smith,bob.smith456@example.com,39,233.9,Inactive,usa,04/16/2023,lorem ipsum dolor sit amet,,north
+458,  Carol White  ,carol.white457@mail.com,79,387.13,Active,United Kingdom,08/10/2023,México office follow-up,,north
+459,Bob Smit,bob.smit458@test.org,45,,Active,United Kingdom,08/06/2024,Café latte discount applied,,north
+460,  Jack Anderson  ,jack.anderson459@test.org,23,186.65,ACTIVE,U.S.A.,05-08-2023,sample,,north
+461,  Eve Davis  ,,61,163.47,Active,United Kingdom,"October 11, 2024",Customer requested faster shipping.,,north
+462,Alice Johnso,alice.johnso461@example.com,48,46.66,Active,uk,09/15/2024,Café latte discount applied,,north
+463,Ivy  Taylor,,22,241.36,active,United Kingdom,06/07/2024,Customer requested faster shipping.,,north
+464,  Alice Johnson  ,alice.johnson463@example.com,67,75.29,active,usa,24-01-2023,México office follow-up,,north
+465,Bob Smit,bob.smit464@mail.com,41,127.34,Active,UK,06-01-2023,test,,north
+466,  Ivy Taylor  ,ivy.taylor465@test.org,59,458.34,Active,uk,04-05-2024,Customer requested faster shipping.,,north
+467,David Brown,david.brown466@example.com,74,302.02,Active,usa,2023-10-15,sample,,north
+468,Alice Johnso,alice.johnso467@example.com,28,32.09,ACTIVE,USA,"February 21, 2024",México office follow-up,,north
+469,  Jack Anderson  ,jack.anderson468@test.org,25,431.87,ACTIVE,usa,2024-04-12,Customer requested faster shipping.,,north
+470,Hank Moor,hank.moor469@example.com,999,420.77,Inactive,United Kingdom,07-03-2024,,,north
+471,IVY TAYLOR,ivy.taylor470@example.com,82,434.18,Active,United Kingdom,01-09-2024,test,,north
+472,  Hank Moore  ,hank.moore471@mail.com,67,492.39, Active,United States,26-01-2024,urgent,,north
+473,Ivy Taylor,ivy.taylor472@mail.com,27,78.5,Active,United States,20-03-2024,Café latte discount applied,,north
+474,Carol  White,carol.white473@example.com,57,186.43,Active,United States,"April 17, 2023",lorem ipsum dolor sit amet,,north
+475,Eve  Davis,eve.davis474@test.org,unknown,167.42,active,U.S.A.,24-01-2023,�� corrupted note �,,north
+476,Ivy  Taylor,ivy.taylor475@test.org,77,480.9, Active,United Kingdom,2024-05-01,Customer requested faster shipping.,,south
+477,Hank Moor,hank.moor476@test.org,33,335.06,active,uk,02/18/2023,sample,,north
+478,Carol  White,carol.white477@test.org,19,367.17,Active,UK,"January 30, 2023",sample,,north
+479,  David Brown  ,david.brown478@mail.com,66,476.25,Active,U.S.A.,"June 16, 2024",Rejected – invalid coupon,,north
+480,bob smith,bob.smith479@mail.com,31,172.68,Inactive,U.S.A.,"July 02, 2024",test,,north
+481,david brown,david.brown480@test.org,83,436.64,Active,United States,"January 06, 2024",ReciÃ©ved partial refund,,north
+482,grace wilson,grace.wilson481@test.org,18,318.84,Inactive,United States,06-10-2024,ReciÃ©ved partial refund,,north
+483,  Carol White  ,-,76,264.81, Active,USA,08/19/2023,México office follow-up,,north
+484,Frank Miller,frank.miller483@test.org,73,101.56, Active,United States,"February 16, 2023",test,,north
+485,  Frank Miller  ,frank.miller484@example.com,71,173.03, Active,uk,2023-03-15,urgent,,north
+486,  David Brown  ,david.brown485@mail.com,,169.64,ACTIVE,USA,11/09/2024,Café latte discount applied,,north
+487,  Jack Anderson  ,none,39,480.73,active,uk,10/03/2024,test,,north
+488,Carol  White,carol.white487@example.com,65,336.48,active,USA,05/28/2024,lorem ipsum dolor sit amet,,north
+489,Hank Moore,hank.moore488@mail.com,58,443.42,Active,United States,2024-01-19,Rejected – invalid coupon,,north
+490,Carol White,carol.white489@test.org,29,66.11,ACTIVE,UK,"October 02, 2023",Customer requested faster shipping.,,north
+491,  Ivy Taylor  ,ivy.taylor490@example.com,80,,ACTIVE,UK,14-06-2023,test,,north
+492,david brown,,-,411.97,Active,USA,10/13/2024,México office follow-up,,north
+493,David Brown,david.brown492@test.org,56,247.79,ACTIVE,UK,2024-06-18,sample,,south
+494,  David Brown  ,david.brown493@example.com,  ,428.17,inactive,U.S.A.,"June 01, 2023",México office follow-up,,south
+495,Jack Anderso,jack.anderso494@test.org,36,188.68, Active,United Kingdom,19-07-2024,Café latte discount applied,,north
+496,BOB SMITH,bob.smith495@test.org,31,124.41,ACTIVE,UK,2023-10-25,Rejected – invalid coupon,,north
+497,Carol White,carol.white496@test.org,unknown,14.93,Active,USA,01/26/2024,Customer requested faster shipping.,,north
+498,carol white,carol.white497@example.com,85,120.99,ACTIVE,UK,06/26/2024,Rejected – invalid coupon,,north
+499,  Frank Miller  ,,77,113.67,Active,uk,12-08-2023,sample,,north
+500,alice johnson,alice.johnson499@mail.com,60,-250.0,Active,uk,2024-11-09,Customer requested faster shipping.,,north
+501,  Jack Anderson  ,jack.anderson500@mail.com,35,?,Active,UK,06-07-2024,urgent,,north
+502,Carol Whit,carol.whit501@example.com,86,267.47, Active,uk,11/23/2023,sample,,north
+503,Eve Davi,eve.davi502@test.org,36,310.07,Active,United States,22-10-2024,Rejected – invalid coupon,,north
+504,  Bob Smith  ,bob.smith503@mail.com,55,331.54,active,UK,"October 12, 2023",sample,,north
+505,Ivy Taylo,ivy.taylo504@example.com,26,405.7,Inactive,USA,05-10-2024,sample,,north
+506,  Grace Wilson  ,grace.wilson505@example.com,77,413.61,inactive,United Kingdom,05/15/2023,lorem ipsum dolor sit amet,,north
+507,  Ivy Taylor  ,,29,248.6,active,uk,11/16/2024,Café latte discount applied,,north
+508,Grace  Wilson,grace.wilson507@mail.com,35,345.18,ACTIVE,uk,03/23/2024,urgent,,north
+509,david brown,david.brown508@mail.com,82,,Active,UK,16-04-2023,Customer requested faster shipping.,,north
+510,frank miller,frank.miller509@test.org,20,361.8,Active,U.S.A.,2023-01-07,Café latte discount applied,,north
+511,Frank Mille,frank.mille510@example.com,30,65.4,Active,usa,04/23/2023,México office follow-up,,north
+512,Ivy Taylo,none,38,407.09,active,usa,2024-03-18,Rejected – invalid coupon,,north
+513,FRANK MILLER,frank.miller512@test.org,-5,85.51,active,U.S.A.,05/15/2023,Customer requested faster shipping.,,north
+514,Bob Smit,bob.smit513@example.com,48,386.33,ACTIVE,UK,"June 15, 2023",�� corrupted note �,,north
+515,Frank Mille,frank.mille514@mail.com,85,363.28,active,United Kingdom,04-06-2024,sample,,north
+516,  Eve Davis  ,eve.davis515@example.com,56,299.86,ACTIVE,United Kingdom,"February 05, 2024",Café latte discount applied,,north
+517,CAROL WHITE,carol.white516@example.com,26,263.29,active,uk,2023-06-19,,,north
+518,Bob Smit,bob.smit517@example.com,74,497.84,Active,usa,"September 16, 2024",México office follow-up,,north
+519,frank miller,frank.miller518@mail.com,  ,453.66,Active,United States,05/15/2023,test,,south
+520,David  Brown,david.brown519@example.com,39,-,Active,USA,03/12/2024,Customer requested faster shipping.,,north
+521,  David Brown  ,david.brown520@mail.com,71,386.29,Active,uk,07/27/2024,lorem ipsum dolor sit amet,,north
+522,Carol  White,carol.white521@example.com,87,144.89,inactive,uk,"June 20, 2023",�� corrupted note �,,north
+523,ivy taylor,ivy.taylor522@test.org,68,?,Active,U.S.A.,"September 15, 2024",test,,north
+524,  Carol White  ,carol.white523@test.org,85,-250.0,Active,USA,20-04-2023,lorem ipsum dolor sit amet,,north
+525,Bob  Smith,bob.smith524@example.com,28,153.28,active,UK,07/17/2023,lorem ipsum dolor sit amet,,north
+526,Ivy  Taylor,ivy.taylor525@example.com,62,391.12,active,usa,27-03-2023,México office follow-up,,north
+527,bob smith,bob.smith526@example.com,56,257.23,active,usa,"June 23, 2024",Café latte discount applied,,north
+528,Alice Johnson,alice.johnson527@example.com,71,10.4,Active,USA,2023-02-22,Customer requested faster shipping.,,north
+529,david brown,david.brown528@test.org,86,76.1,ACTIVE,USA,"February 20, 2023",,,north
+530,ivy taylor,ivy.taylor529@mail.com,20,200.12, Active,U.S.A.,"January 25, 2023",Customer requested faster shipping.,,north
+531,carol white,carol.white530@example.com,89,198.41,Active,usa,2024-08-19,lorem ipsum dolor sit amet,,north
+532,DAVID BROWN,david.brown531@example.com,26,493.58,ACTIVE,usa,"May 17, 2023",México office follow-up,,north
+533,  Grace Wilson  ,grace.wilson532@example.com,-5,365.93,Active,USA,2024-04-02,Café latte discount applied,,north
+534,Jack Anderso,jack.anderso533@mail.com,76,187.48,active,usa,2024-09-11,Customer requested faster shipping.,,north
+535,David Brow,david.brow534@mail.com,31,,ACTIVE,U.S.A.,01/01/2023,Customer requested faster shipping.,,north
+536,ivy taylor,ivy.taylor535@test.org,54,378.23, Active,usa,"June 16, 2024",�� corrupted note �,,north
+537,BOB SMITH,bob.smith536@test.org,65,433.12,Active,usa,"August 11, 2023",Customer requested faster shipping.,,north
+538,alice johnson,alice.johnson537@test.org,81,336.22,active,uk,09/28/2023,México office follow-up,,north
+539,Hank Moor,hank.moor538@mail.com,,378.6,active,United Kingdom,08/03/2023,�� corrupted note �,,north
+540,  David Brown  ,david.brown539@example.com,28,96.35,Active,usa,10/28/2023,sample,,north
+541,Hank Moore,hank.moore540@example.com,72,345.05, Active,U.S.A.,"July 25, 2024",Customer requested faster shipping.,,north
+542,Carol  White,carol.white541@example.com,80,294.07, Active,U.S.A.,"October 01, 2024",Customer requested faster shipping.,,south
+543,Frank  Miller,frank.miller542@mail.com,77,-250.0,Active,United Kingdom,30-05-2023,Customer requested faster shipping.,,north
+544,Ivy Taylo,ivy.taylo543@test.org,unknown,123.86, Active,usa,08-06-2024,ReciÃ©ved partial refund,,north
+545,David Brow,david.brow544@mail.com,85,194.81,active,United States,24-02-2023,test,,north
+546,  Alice Johnson  ,alice.johnson545@test.org,76,20.09,Active,uk,2023-11-16,lorem ipsum dolor sit amet,,north
+547,carol white,carol.white546@mail.com,39,416.79,ACTIVE,United Kingdom,06/25/2024,Customer requested faster shipping.,,south
+548,  Jack Anderson  ,jack.anderson547@test.org,86,41.21,Active,U.S.A.,10/15/2024,Customer requested faster shipping.,,north
+549,  Alice Johnson  ,alice.johnson548@mail.com,35,108.98, Active,UK,05-09-2023,lorem ipsum dolor sit amet,,north
+550,ALICE JOHNSON,alice.johnson549@example.com,24,421.27,Active,United States,"May 30, 2023",test,,north
+551,  David Brown  ,david.brown550@example.com,22,202.72,active,U.S.A.,"March 13, 2023",�� corrupted note �,,north
+552,Carol  White,carol.white551@mail.com,unknown,255.11,active,usa,"June 13, 2024",México office follow-up,,north
+553,EVE DAVIS,eve.davis552@test.org,68,-,ACTIVE,U.S.A.,07/16/2024,Rejected – invalid coupon,,north
+554,IVY TAYLOR,ivy.taylor553@mail.com,73,88.99,active,United Kingdom,"June 10, 2024",Customer requested faster shipping.,,north
+555,david brown,david.brown554@test.org,31,-,ACTIVE,usa,"June 06, 2024",Customer requested faster shipping.,,north
+556,jack anderson,jack.anderson555@example.com,unknown,474.51,Active,United States,12-12-2023,Café latte discount applied,,north
+557,Ivy Taylor,ivy.taylor556@example.com,999,24.28,active,usa,2024-10-12,Rejected – invalid coupon,,north
+558,CAROL WHITE,carol.white557@test.org,63,276.43,Active,United Kingdom,07-10-2023,lorem ipsum dolor sit amet,,north
+559,alice johnson,alice.johnson558@test.org,86,211.72,Active,USA,25-10-2024,Café latte discount applied,,north
+560,EVE DAVIS,eve.davis559@example.com,23,133.46, Active,USA,05-08-2024,Customer requested faster shipping.,,north
+561,  Jack Anderson  ,jack.anderson560@example.com,43,295.21,active,UK,21-09-2023,Rejected – invalid coupon,,north
+562,IVY TAYLOR,none,51,39.79,Active,U.S.A.,"August 06, 2024",test,,north
+563,  Bob Smith  ,bob.smith562@test.org,43,359.92,Active,usa,2024-04-09,Customer requested faster shipping.,,north
+564,BOB SMITH,bob.smith563@mail.com,45,133.21,inactive,USA,02/26/2024,México office follow-up,,north
+565,alice johnson,alice.johnson564@example.com,22,132.97,active,UK,"August 05, 2023",México office follow-up,,north
+566,Hank Moor,hank.moor565@example.com,,498.76,active,uk,2023-07-20,lorem ipsum dolor sit amet,,north
+567,frank miller,frank.miller566@example.com,49,26.63,Inactive,United Kingdom,04/03/2023,,,north
+568,Eve  Davis,eve.davis567@mail.com,63,354.58,Active,UK,"July 03, 2023",Customer requested faster shipping.,,north
+569,  Bob Smith  ,bob.smith568@mail.com,62,35.2, Active,usa,2024-02-25,Rejected – invalid coupon,,north
+570,  Ivy Taylor  ,ivy.taylor569@mail.com,72,9.33,Active,UK,11/15/2024,sample,,north
+571,Eve Davi,eve.davi570@mail.com,88,5.15,Inactive,U.S.A.,07/19/2023,Rejected – invalid coupon,,north
+572,GRACE WILSON,grace.wilson571@test.org,88,290.83,active,United Kingdom,07/07/2024,Customer requested faster shipping.,,north
+573,Grace Wilson,grace.wilson572@example.com,88,-250.0,ACTIVE,usa,27-04-2024,Customer requested faster shipping.,,north
+574,Carol White,carol.white573@example.com,47,141.67,Inactive,United States,06/21/2024,lorem ipsum dolor sit amet,,north
+575,Frank Mille,frank.mille574@example.com,-5,188.1,active,uk,06/14/2024,lorem ipsum dolor sit amet,,north
+576,DAVID BROWN,david.brown575@example.com,28,285.3,active,United States,23-05-2023,test,,north
+577,Alice  Johnson,alice.johnson576@mail.com,75,368.98,ACTIVE,United Kingdom,"July 14, 2023",Customer requested faster shipping.,,north
+578,Jack  Anderson,jack.anderson577@test.org,42,490.39,Inactive,U.S.A.,"June 30, 2024",Customer requested faster shipping.,,north
+579,David Brow,david.brow578@mail.com,63,319.02, Active,UK,11-06-2024,México office follow-up,,north
+580,jack anderson,jack.anderson579@example.com,80,21.3,inactive,USA,01/22/2024,lorem ipsum dolor sit amet,,north
+581,Bob Smith,,36,201.76,Active,usa,"June 10, 2023",Customer requested faster shipping.,,north
+582,Alice Johnson,alice.johnson581@test.org,79,195.06, Active,USA,"October 14, 2023",lorem ipsum dolor sit amet,,north
+583,BOB SMITH,bob.smith582@test.org,78,453.78,active,uk,2023-09-29,test,,north
+584,carol white,carol.white583@mail.com,20,435.62,ACTIVE,U.S.A.,"April 29, 2024",ReciÃ©ved partial refund,,north
+585,DAVID BROWN,david.brown584@test.org,,,active,United States,25-07-2024,Café latte discount applied,,north
+586,Ivy Taylo,ivy.taylo585@test.org,47,236.27,active,U.S.A.,25-11-2024,urgent,,north
+587,Grace Wilson,grace.wilson586@test.org,65,154.47,ACTIVE,uk,04-05-2023,Café latte discount applied,,north
+588,Jack Anderson,jack.anderson587@example.com,23,238.44,active,usa,"May 02, 2023",test,,north
+589,David  Brown,david.brown588@example.com,53,96.3,ACTIVE,United States,26-10-2024,test,,north
+590,Hank  Moore,hank.moore589@example.com,27,373.32,Active,U.S.A.,27-06-2023,lorem ipsum dolor sit amet,,north
+591,Hank Moor,hank.moor590@example.com,85,317.7,Inactive,UK,"April 29, 2023",lorem ipsum dolor sit amet,,north
+592,David  Brown,david.brown591@test.org,31,15.67,Inactive,United Kingdom,2023-06-30,Café latte discount applied,,north
+593,Bob Smith,bob.smith592@test.org,37,-250.0,active,UK,10-09-2023,Café latte discount applied,,north
+594,Ivy  Taylor,ivy.taylor593@example.com,54,337.73, Active,USA,2023-03-11,Customer requested faster shipping.,,north
+595,  Hank Moore  ,hank.moore594@mail.com,80,383.83,active,United States,"June 06, 2024",Customer requested faster shipping.,,north
+596,David  Brown,david.brown595@example.com,56,264.73,Active,United States,2024-06-10,ReciÃ©ved partial refund,,north
+597,CAROL WHITE,carol.white596@mail.com,74,17.68,active,UK,"May 05, 2023",Café latte discount applied,,north
+598,David Brow,david.brow597@example.com,-5,251.95,ACTIVE,USA,05/18/2024,lorem ipsum dolor sit amet,,north
+599,Carol Whit,carol.whit598@test.org,23,188.7,Active,UK,06/05/2023,Customer requested faster shipping.,,north
+600,  Frank Miller  ,frank.miller599@example.com,999,292.6,Active,usa,02/07/2023,Customer requested faster shipping.,,north
+601,Hank Moore,hank.moore600@test.org,30,231.13,Active,United States,2024-10-07,urgent,,north
+602,Jack Anderso,jack.anderso601@test.org,unknown,150.17,inactive,USA,"May 01, 2023",sample,,north
+603,  Alice Johnson  ,alice.johnson602@mail.com,unknown,131.58,active,uk,"October 23, 2024",,,north
+604,FRANK MILLER,frank.miller603@example.com,70,11.26,Active,United States,2024-10-08,México office follow-up,,north
+605,EVE DAVIS,eve.davis604@mail.com,unknown,172.47,active,UK,2023-10-29,Rejected – invalid coupon,,north
+606,frank miller,frank.miller605@mail.com,53,385.59,Active,United Kingdom,25-01-2023,Café latte discount applied,,north
+607,carol white,carol.white606@test.org,56,467.54, Active,U.S.A.,2023-04-06,,,north
+608,  Jack Anderson  ,jack.anderson607@test.org,unknown,141.47,Active,U.S.A.,02/07/2023,,,north
+609,Frank Miller,frank.miller608@example.com,52,150.83, Active,UK,29-11-2024,Customer requested faster shipping.,,north
+610,alice johnson,alice.johnson609@mail.com,18,444.84,active,UK,"January 16, 2024",urgent,,north
+611,Eve Davis,eve.davis610@mail.com,29,103.31,active,UK,"January 03, 2023",Customer requested faster shipping.,,north
+612,Hank Moor,hank.moor611@mail.com,29,196.74,Active,USA,"December 09, 2023",test,,north
+613,David Brown,?,36,184.77,active,uk,"June 23, 2023",sample,,north
+614,  Bob Smith  ,bob.smith613@mail.com,88,-250.0, Active,United Kingdom,14-03-2024,�� corrupted note �,,north
+615,DAVID BROWN,david.brown614@example.com,80,174.13,ACTIVE,UK,01/07/2023,Customer requested faster shipping.,,north
+616,Alice Johnso,alice.johnso615@mail.com,50,,active,UK,"August 29, 2024",sample,,north
+617,jack anderson,none,55,106.89,Active,U.S.A.,11/10/2023,sample,,north
+618,ALICE JOHNSON,alice.johnson617@test.org,48,309.19,Active,U.S.A.,"January 10, 2024",lorem ipsum dolor sit amet,,north
+619,Alice Johnso,alice.johnso618@example.com,67,493.59,active,usa,02-12-2023,�� corrupted note �,,north
+620,Alice Johnso,-,35,371.55,Inactive,U.S.A.,2023-12-20,Rejected – invalid coupon,,north
+621,hank moore,,41,496.35,Active,uk,25-08-2024,ReciÃ©ved partial refund,,north
+622,carol white,carol.white621@test.org,81,73.97,Active,United Kingdom,04/29/2023,test,,north
+623,Hank Moore,hank.moore622@example.com,,272.23,active,uk,07-09-2023,ReciÃ©ved partial refund,,north
+624,hank moore,hank.moore623@mail.com,41,476.01,inactive,uk,2023-01-08,�� corrupted note �,,north
+625,Hank Moor,hank.moor624@test.org,64,62.39,active,United States,"November 27, 2024",Customer requested faster shipping.,,north
+626,EVE DAVIS,eve.davis625@test.org,,147.77,Active,United States,"March 20, 2024",lorem ipsum dolor sit amet,,north
+627,David Brow,david.brow626@test.org,62,494.0,Active,usa,2023-09-25,Rejected – invalid coupon,,north
+628,FRANK MILLER,frank.miller627@mail.com,56,397.47,Active,uk,02/25/2023,urgent,,north
+629,Jack  Anderson,jack.anderson628@example.com,66,481.84,active,uk,"August 08, 2023",Rejected – invalid coupon,,north
+630,DAVID BROWN,david.brown629@test.org,85,291.55,ACTIVE,UK,11/25/2024,lorem ipsum dolor sit amet,,north
+631,Frank  Miller,frank.miller630@mail.com,unknown,196.61,active,United Kingdom,09/06/2024,México office follow-up,,north
+632,Bob Smith,bob.smith631@mail.com,26,26.26,Active,United Kingdom,09/06/2023,México office follow-up,,north
+633,FRANK MILLER,frank.miller632@test.org,48,292.13, Active,United Kingdom,05/17/2023,test,,north
+634,bob smith,bob.smith633@mail.com,-5,474.47,ACTIVE,United States,2024-01-21,urgent,,north
+635,Hank Moor,hank.moor634@mail.com,27,371.02,Inactive,uk,"August 01, 2024",sample,,north
+636,Ivy  Taylor,ivy.taylor635@mail.com,84,6.59,ACTIVE,U.S.A.,"September 07, 2023",Customer requested faster shipping.,,north
+637,jack anderson,jack.anderson636@example.com,85,186.62,Active,usa,18-09-2024,México office follow-up,,north
+638,Frank  Miller,frank.miller637@mail.com,34,,Active,USA,04-06-2023,Rejected – invalid coupon,,north
+639,  David Brown  ,david.brown638@example.com,56,181.93,active,UK,11/27/2023,Customer requested faster shipping.,,north
+640,Hank Moore,hank.moore639@test.org,45,93.27,active,UK,2023-02-10,México office follow-up,,north
+641,jack anderson,jack.anderson640@test.org,50,, Active,USA,23-10-2023,,,north
+642,Hank Moor,hank.moor641@test.org,63,356.3,Active,uk,"February 04, 2023",�� corrupted note �,,north
+643,Jack  Anderson,jack.anderson642@mail.com,43,117.48,ACTIVE,uk,"May 20, 2023",test,,north
+644,Carol Whit,carol.whit643@example.com,unknown,60.16,active,uk,2023-11-08,Rejected – invalid coupon,,north
+645,  Bob Smith  ,bob.smith644@mail.com,-5,,Active,UK,2024-05-21,México office follow-up,,north
+646,Eve Davi,eve.davi645@test.org,67,-250.0, Active,United States,03-12-2023,Rejected – invalid coupon,,north
+647,Bob Smit,bob.smit646@example.com,80,299.8,Active,USA,2024-10-18,Customer requested faster shipping.,,north
+648,  Bob Smith  ,bob.smith647@test.org,67,494.32,active,uk,"September 27, 2023",sample,,north
+649,BOB SMITH,,65,402.02,Active,United States,2024-10-09,test,,north
+650,David Brown,david.brown649@test.org,28,429.56,active,uk,11-09-2023,lorem ipsum dolor sit amet,,north
+651,Frank Mille,frank.mille650@example.com,28,,ACTIVE,UK,"May 04, 2023",Customer requested faster shipping.,,north
+652,carol white,carol.white651@mail.com,21,153.9,Active,United Kingdom,27-06-2024,Café latte discount applied,,north
+653,Jack Anderso,jack.anderso652@test.org,?,9.29,ACTIVE,UK,25-07-2023,sample,,north
+654,eve davis,eve.davis653@mail.com,33,225.83,Active,usa,"July 31, 2024",test,,north
+655,  Ivy Taylor  ,ivy.taylor654@test.org,79,251.77,Active,UK,"June 18, 2023",Customer requested faster shipping.,,north
+656,Alice Johnson,,75,213.35, Active,USA,"May 19, 2024",Café latte discount applied,,north
+657,  Eve Davis  ,eve.davis656@test.org,unknown,228.17,Inactive,usa,"December 11, 2023",Rejected – invalid coupon,,north
+658,david brown,david.brown657@test.org,50,225.4,Active,United Kingdom,22-03-2024,lorem ipsum dolor sit amet,,north
+659,grace wilson,grace.wilson658@mail.com,21,222.43,Active,usa,"March 01, 2024",lorem ipsum dolor sit amet,,north
+660,FRANK MILLER,frank.miller659@example.com,25,162.38,Inactive,United Kingdom,2024-09-12,Customer requested faster shipping.,,north
+661,ivy taylor,ivy.taylor660@test.org,43,30.36,active,USA,14-04-2023,Café latte discount applied,,north
+662,grace wilson,grace.wilson661@mail.com,41,429.7,Active,usa,2023-02-18,�� corrupted note �,,north
+663,bob smith,bob.smith662@example.com,46,475.98,Active,USA,21-03-2024,Customer requested faster shipping.,,north
+664,HANK MOORE,?,20,265.18, Active,United States,"February 04, 2024",,,north
+665,  Hank Moore  ,hank.moore664@test.org,37,343.79,Active,United Kingdom,"February 23, 2023",sample,,north
+666,eve davis,eve.davis665@test.org,76,285.66,inactive,USA,12/19/2023,Customer requested faster shipping.,,north
+1,Jack  Anderson,jack.anderson0@test.org,23,141.0,Inactive,USA,06-11-2023,lorem ipsum dolor sit amet,,north
+2,Grace Wilson,grace.wilson1@test.org,72,126.74,inactive,uk,"March 15, 2023",sample,,north
+3,Frank Mille,frank.mille2@mail.com,80,81.03, Active,usa,02/14/2023,Café latte discount applied,,north
+4,ivy taylor,ivy.taylor3@example.com,52,94.9,active,United Kingdom,2023-04-10,Rejected – invalid coupon,,north
+5,alice johnson,alice.johnson4@mail.com,69,28.71,Active,U.S.A.,"January 24, 2023",México office follow-up,,north
+6,Carol White,carol.white5@mail.com,19,238.07,Inactive,UK,16-10-2023,Customer requested faster shipping.,,north
+7,JACK ANDERSON,jack.anderson6@mail.com,70,328.5,Active,uk,22-03-2023,Customer requested faster shipping.,,north
+8,Eve Davi,eve.davi7@test.org,74,94.16,Inactive,UK,2023-07-16,sample,,north
+9,Bob Smit,bob.smit8@example.com,56,270.04,Inactive,UK,04/11/2023,Café latte discount applied,,north
+10,  Bob Smith  ,bob.smith9@test.org,61,60.09,active,United States,08/28/2024,ReciÃ©ved partial refund,,north
+11,ivy taylor,ivy.taylor10@mail.com,59,-250.0,Active,USA,17-11-2024,test,,north
+12,david brown,david.brown11@test.org,43,150.8,Active,USA,2023-01-27,lorem ipsum dolor sit amet,,north
+13,hank moore,,48,203.89,ACTIVE,United States,16-08-2023,urgent,,north
+14,  Jack Anderson  ,jack.anderson13@mail.com,67,84.85,Active,UK,"August 20, 2023",Café latte discount applied,,north
+15,Eve  Davis,eve.davis14@test.org,38,110.13, Active,UK,29-01-2023,ReciÃ©ved partial refund,,north
+16,Frank  Miller,frank.miller15@test.org,88,18.08,Active,uk,09/08/2024,ReciÃ©ved partial refund,,north
+17,Frank Miller,frank.miller16@mail.com,31,71.98,Active,uk,"November 16, 2023",lorem ipsum dolor sit amet,,north
+18,Ivy Taylo,ivy.taylo17@test.org,unknown,458.99,ACTIVE,USA,"April 09, 2023",Rejected – invalid coupon,,north
+19,Hank  Moore,hank.moore18@mail.com,52,-250.0,Inactive,USA,2024-05-22,sample,,north
+20,David Brown,david.brown19@test.org,19,407.7, Active,UK,"May 09, 2023",ReciÃ©ved partial refund,,north
+21,eve davis,eve.davis20@example.com,74,454.89,Active,UK,2023-11-09,ReciÃ©ved partial refund,,north
+22,IVY TAYLOR,ivy.taylor21@mail.com,35,72.54,Inactive,United Kingdom,06/03/2024,Customer requested faster shipping.,,north
+23,Ivy  Taylor,ivy.taylor22@mail.com,-,494.72,active,UK,"September 11, 2023",Rejected – invalid coupon,,north
+24,BOB SMITH,bob.smith23@mail.com,40,137.63,Inactive,United Kingdom,2023-01-12,Rejected – invalid coupon,,north
+25,EVE DAVIS,eve.davis24@mail.com,?,371.58,inactive,United Kingdom,"April 04, 2023",Rejected – invalid coupon,,north
+26,Bob  Smith,bob.smith25@mail.com,65,171.97,Active,UK,2023-04-15,test,,north
+27,  Jack Anderson  ,jack.anderson26@mail.com,44,143.18,Active,United States,11-06-2023,México office follow-up,,north
+28,Ivy Taylor,ivy.taylor27@mail.com,51,466.92,Active,UK,2023-10-24,�� corrupted note �,,north
+29,Ivy  Taylor,ivy.taylor28@example.com,80,66.47,ACTIVE,USA,06/02/2024,Café latte discount applied,,north
+30,Eve  Davis,eve.davis29@example.com,59,179.13,Inactive,usa,2023-07-13,urgent,,north
+31,  Carol White  ,carol.white30@example.com,50,335.98,Inactive,United States,"October 13, 2023",Café latte discount applied,,north
+32,david brown,david.brown31@example.com,69,440.99,Active,usa,12/18/2023,Customer requested faster shipping.,,north
+33,JACK ANDERSON,jack.anderson32@example.com,44,114.54,active,United States,2023-09-06,�� corrupted note �,,north
+34,alice johnson,alice.johnson33@test.org,unknown,?,Active,U.S.A.,28-07-2024,Café latte discount applied,,south
+35,Jack Anderso,jack.anderso34@test.org,,259.95,active,usa,"September 27, 2024",lorem ipsum dolor sit amet,,north
+36,ivy taylor,ivy.taylor35@mail.com,31,76.3,Active,USA,"October 07, 2024",Customer requested faster shipping.,,north
+37,  Hank Moore  ,hank.moore36@mail.com,57,152.61,Active,USA,08/15/2023,Rejected – invalid coupon,,north
+38,EVE DAVIS,eve.davis37@mail.com,unknown,286.64, Active,UK,2024-07-08,Customer requested faster shipping.,,north
+39,Grace Wilso,grace.wilso38@test.org,47,-250.0,active,UK,02/02/2024,ReciÃ©ved partial refund,,north
+40,GRACE WILSON,grace.wilson39@example.com,28,137.08,active,UK,"November 23, 2023",Customer requested faster shipping.,,north
+41,frank miller,frank.miller40@mail.com,23,383.67,Active,U.S.A.,"October 18, 2024",sample,,north
+42,Jack Anderson,jack.anderson41@test.org,21,76.27,Active,uk,2023-01-16,sample,,north
+43,Bob  Smith,,63,441.12,inactive,U.S.A.,23-01-2023,test,,north
+44,Jack Anderson,jack.anderson43@test.org,27,29.96, Active,UK,11/22/2023,Customer requested faster shipping.,,north
+45,Hank  Moore,hank.moore44@test.org,,241.37,Active,United Kingdom,2024-09-03,Café latte discount applied,,north
+46,Alice Johnso,alice.johnso45@example.com,39,,Inactive,United States,"May 21, 2024",Customer requested faster shipping.,,north
+47,EVE DAVIS,?,49,371.5,active,United States,"April 28, 2023",lorem ipsum dolor sit amet,,south
+48,Carol  White,carol.white47@mail.com,20,462.28,active,uk,"March 08, 2024",lorem ipsum dolor sit amet,,north
+49,Hank  Moore,hank.moore48@test.org,69,345.33,ACTIVE,usa,01/01/2024,test,,north
+50,Grace Wilson,grace.wilson49@test.org,55,317.92,Inactive,usa,2024-07-07,Café latte discount applied,,north
+51,  Grace Wilson  ,grace.wilson50@mail.com,65,245.56,ACTIVE,UK,"December 04, 2023",Café latte discount applied,,north
+52,Grace  Wilson,grace.wilson51@test.org,76,310.21,ACTIVE,UK,04-04-2024,Café latte discount applied,,north
+53,BOB SMITH,bob.smith52@mail.com,79,25.71,ACTIVE,usa,07/15/2023,ReciÃ©ved partial refund,,north
+54,  Grace Wilson  ,grace.wilson53@mail.com,31,123.75, Active,U.S.A.,2024-03-12,Café latte discount applied,,north
+55,frank miller,frank.miller54@mail.com,60,464.28,ACTIVE,usa,"April 11, 2023",México office follow-up,,north
+56,CAROL WHITE,carol.white55@test.org,77,15.86,active,U.S.A.,"March 29, 2023",�� corrupted note �,,south
+57,David Brow,david.brow56@example.com,41,240.29, Active,United Kingdom,"March 12, 2024",test,,north
+58,  Eve Davis  ,eve.davis57@test.org,81,275.77,Active,United Kingdom,28-07-2024,México office follow-up,,north
+59,Frank Miller,frank.miller58@example.com,36,210.25,active,United Kingdom,2023-02-27,Customer requested faster shipping.,,north
+60,David  Brown,david.brown59@test.org,49,314.25,Inactive,United States,18-06-2024,Customer requested faster shipping.,,north
+61,Eve  Davis,eve.davis60@example.com,34,303.8,active,United States,"February 19, 2024",Customer requested faster shipping.,,north
+62,Eve  Davis,eve.davis61@test.org,80,71.28,active,usa,02-09-2024,Rejected – invalid coupon,,north
+63,Frank Mille,frank.mille62@test.org,34,208.11,ACTIVE,USA,2024-05-01,ReciÃ©ved partial refund,,north
+64,JACK ANDERSON,jack.anderson63@mail.com,45,151.55,ACTIVE,USA,"August 10, 2023",urgent,,north
+65,  Frank Miller  ,-,-,120.57,Active,United States,"March 16, 2023",test,,north
+66,david brown,david.brown65@mail.com,21,387.98,Inactive,uk,08/15/2024,,,north
+67,  Alice Johnson  ,alice.johnson66@mail.com,70,6.24,ACTIVE,usa,07/20/2023,,,north
+68,IVY TAYLOR,ivy.taylor67@mail.com,33,18.15,active,UK,15-11-2023,Customer requested faster shipping.,,north
+69,Eve Davis,,73,197.0,Active,UK,14-05-2023,Café latte discount applied,,north
+70,jack anderson,jack.anderson69@example.com,25,341.01,active,uk,28-06-2024,Customer requested faster shipping.,,south
+71,Alice Johnso,alice.johnso70@mail.com,37,498.12,ACTIVE,uk,2023-04-13,urgent,,north
+72,alice johnson,alice.johnson71@test.org,64,268.9,active,UK,21-02-2024,Customer requested faster shipping.,,north
+73,Eve Davis,eve.davis72@mail.com,29,135.41,Active,United Kingdom,29-11-2024,Customer requested faster shipping.,,north
+74,Alice  Johnson,alice.johnson73@mail.com,63,422.75,Active,USA,2023-09-25,test,,north
+75,FRANK MILLER,frank.miller74@mail.com,74,348.98,active,U.S.A.,2024-06-04,,,north
+76,Ivy Taylor,ivy.taylor75@mail.com,57,469.92,active,UK,2024-05-07,Rejected – invalid coupon,,north
+77,Eve Davis,eve.davis76@test.org,44,-250.0,inactive,usa,"August 11, 2024",�� corrupted note �,,north
+78,Grace Wilson,grace.wilson77@example.com,38,490.25,Active,United States,"June 16, 2024",Customer requested faster shipping.,,north
+79,Jack  Anderson,jack.anderson78@test.org,-5,317.06, Active,UK,"September 25, 2024",México office follow-up,,north
+80,CAROL WHITE,carol.white79@example.com,63,396.32,active,United States,"August 31, 2024",Customer requested faster shipping.,,north
+81,frank miller,frank.miller80@test.org,75,259.08,active,usa,2023-07-06,Café latte discount applied,,north
+82,Hank Moore,hank.moore81@test.org,37,239.5,active,UK,2023-06-26,urgent,,north
+83,Carol  White,carol.white82@mail.com,56,128.15, Active,USA,03/01/2024,test,,north
+84,alice johnson,?,85,169.3,Active,United States,07/22/2024,urgent,,north
+85,David Brown,david.brown84@test.org,63,98.14,Active,U.S.A.,"March 30, 2023",Café latte discount applied,,north
+86,Jack  Anderson,,89,167.23,active,usa,"September 14, 2024",Customer requested faster shipping.,,north
+87,Frank  Miller,frank.miller86@example.com,70,70.98,Inactive,UK,"February 17, 2023",Customer requested faster shipping.,,north
+88,  Alice Johnson  ,-,23,423.45,Active,usa,2023-03-14,,,north
+89,  Jack Anderson  ,jack.anderson88@mail.com,?,372.61,active,UK,"July 26, 2024",test,,north
+90,carol white,carol.white89@mail.com,38,207.69, Active,United States,"October 06, 2023",Customer requested faster shipping.,,north
+91,HANK MOORE,hank.moore90@test.org,28,?,active,uk,2023-12-23,Customer requested faster shipping.,,north
+92,Jack Anderson,jack.anderson91@test.org,unknown,467.48,active,United Kingdom,"August 04, 2023",México office follow-up,,north
+93,  Frank Miller  ,frank.miller92@example.com,unknown,161.0,active,United Kingdom,07/04/2023,Customer requested faster shipping.,,north
+94,Hank  Moore,hank.moore93@test.org,42,185.32,Inactive,UK,09-10-2023,Customer requested faster shipping.,,north
+95,eve davis,eve.davis94@test.org,52,399.36,active,usa,"July 14, 2023",Customer requested faster shipping.,,north
+96,Eve Davi,eve.davi95@example.com,,48.58,ACTIVE,United Kingdom,12-04-2024,Customer requested faster shipping.,,north
+97,ALICE JOHNSON,none,46,185.03, Active,United Kingdom,04/20/2024,Café latte discount applied,,south
+98,  Hank Moore  ,hank.moore97@example.com,69,299.38,Active,USA,2024-05-19,Café latte discount applied,,north
+99,IVY TAYLOR,ivy.taylor98@mail.com,67,496.36,Active,USA,10/19/2023,�� corrupted note �,,north
+100,JACK ANDERSON,jack.anderson99@test.org,,310.96,Active,usa,2023-04-03,México office follow-up,,north
+101,Eve Davis,eve.davis100@mail.com,46,,Inactive,UK,15-12-2023,Customer requested faster shipping.,,north
+102,Bob  Smith,bob.smith101@example.com,unknown,1000000.0,ACTIVE,usa,"September 15, 2024",,,north
+103,  Hank Moore  ,hank.moore102@test.org,42,309.38,active,UK,2023-11-10,Café latte discount applied,,north
+104,Alice  Johnson,alice.johnson103@test.org,43,190.21,Inactive,UK,"February 15, 2024",Customer requested faster shipping.,,north
+105,Eve Davis,eve.davis104@example.com,73,?,active,usa,01-11-2024,Customer requested faster shipping.,,north
+106,  Grace Wilson  ,grace.wilson105@example.com,999,96.75,Active,U.S.A.,04-01-2024,Café latte discount applied,,north
+107,Alice  Johnson,alice.johnson106@test.org,49,111.3, Active,USA,2023-06-07,�� corrupted note �,,north
+108,Carol Whit,carol.whit107@mail.com,65,480.57,Active,U.S.A.,24-03-2023,Café latte discount applied,,north
+109,  Ivy Taylor  ,,20,436.12,Active,U.S.A.,"June 25, 2023",ReciÃ©ved partial refund,,north
+110,Jack  Anderson,jack.anderson109@test.org,51,19.42,Inactive,UK,"February 19, 2024",test,,north
+111,Frank Mille,frank.mille110@test.org,39,123.86,active,USA,"May 19, 2024",Café latte discount applied,,north
+112,Hank Moore,hank.moore111@test.org,69,1000000.0,Active,United States,24-09-2024,Café latte discount applied,,north
+113,JACK ANDERSON,jack.anderson112@mail.com,71,-250.0,Active,UK,"November 11, 2023",Customer requested faster shipping.,,north
+114,Eve Davis,-,62,,Active,U.S.A.,2023-10-02,Café latte discount applied,,north
+115,DAVID BROWN,david.brown114@test.org,77,225.31,active,USA,2024-04-29,Customer requested faster shipping.,,north
+116,Frank Mille,frank.mille115@mail.com,41,382.06,active,United Kingdom,05-03-2024,México office follow-up,,north
+117,Hank Moor,hank.moor116@mail.com,-5,260.26,Active,uk,2024-08-08,Customer requested faster shipping.,,north
+118,GRACE WILSON,grace.wilson117@mail.com,77,357.68,inactive,usa,08/03/2023,México office follow-up,,north
+119,  Ivy Taylor  ,ivy.taylor118@mail.com,78,366.68,ACTIVE,United States,28-05-2023,urgent,,north
+120,Ivy Taylo,ivy.taylo119@mail.com,999,135.21,Active,uk,2024-09-25,México office follow-up,,north
+121,JACK ANDERSON,,57,342.5,Active,usa,2023-05-25,sample,,north
+122,Ivy  Taylor,ivy.taylor121@test.org,63,474.08,Active,UK,11/30/2023,,,north
+123,Eve Davi,eve.davi122@example.com,86,81.84,Active,United Kingdom,01/30/2024,,,north
+124,Jack  Anderson,jack.anderson123@test.org,25,194.75,Active,U.S.A.,2023-03-03,Customer requested faster shipping.,,north
+125,Alice Johnso,alice.johnso124@example.com,51,201.98,active,U.S.A.,19-10-2024,Customer requested faster shipping.,,north
+126,carol white,carol.white125@test.org,85,?, Active,USA,11/03/2024,ReciÃ©ved partial refund,,north
+127,bob smith,bob.smith126@example.com,45,?,active,usa,28-04-2023,lorem ipsum dolor sit amet,,north
+128,  Jack Anderson  ,jack.anderson127@example.com,76,54.13,Active,U.S.A.,"January 09, 2024",,,north
+129,bob smith,bob.smith128@example.com,89,460.84,ACTIVE,uk,05/28/2023,México office follow-up,,north
+130,  David Brown  ,david.brown129@mail.com,,420.32,Active,United Kingdom,2024-10-30,test,,north
+131,David Brown,david.brown130@example.com,80,418.64,Active,United Kingdom,28-09-2023,urgent,,north
+132,Ivy  Taylor,ivy.taylor131@mail.com,78,291.27,active,U.S.A.,2023-12-19,ReciÃ©ved partial refund,,north
+133,  Jack Anderson  ,jack.anderson132@example.com,?,145.45,ACTIVE,uk,11-07-2023,test,,north
+134,bob smith,bob.smith133@example.com,89,319.83,Inactive,usa,2024-02-27,�� corrupted note �,,north
+135,Alice Johnson,alice.johnson134@example.com,unknown,306.59,ACTIVE,United States,"October 26, 2023",test,,north
+136,  Carol White  ,carol.white135@test.org,73,390.7,Inactive,USA,"January 16, 2023",sample,,north
+137,Carol White,carol.white136@mail.com,63,14.15,Inactive,U.S.A.,08/19/2024,Customer requested faster shipping.,,north
+138,Bob  Smith,,81,,inactive,USA,07/20/2023,sample,,north
+139,Jack  Anderson,jack.anderson138@example.com,69,366.15,inactive,United Kingdom,09-11-2023,Café latte discount applied,,north
+140,Ivy Taylor,ivy.taylor139@test.org,20,153.33,active,United Kingdom,03/31/2023,Customer requested faster shipping.,,north
+141,Hank Moor,hank.moor140@mail.com,51,34.79,Active,USA,"April 28, 2024",urgent,,north
+142,Frank  Miller,frank.miller141@example.com,83,491.18, Active,UK,"February 28, 2023",test,,north
+143,  Ivy Taylor  ,ivy.taylor142@test.org,24,,ACTIVE,UK,05/17/2023,�� corrupted note �,,north
+144,Jack Anderson,jack.anderson143@example.com,54,492.98,active,uk,08-03-2023,,,north
+145,  David Brown  ,david.brown144@test.org,-,333.6,Active,United States,"August 05, 2023",Customer requested faster shipping.,,north
+146,Hank Moore,hank.moore145@example.com,,101.0, Active,UK,09/14/2023,Customer requested faster shipping.,,north
+147,ALICE JOHNSON,alice.johnson146@mail.com,42,122.97,active,usa,"May 18, 2023",Customer requested faster shipping.,,north
+148,  Carol White  ,carol.white147@example.com,54,376.58,ACTIVE,USA,2023-03-17,ReciÃ©ved partial refund,,north
+149,Bob  Smith,bob.smith148@test.org,79,249.04,Active,usa,11-06-2023,test,,north
+150,Frank Miller,frank.miller149@mail.com,56,264.22,active,uk,07-04-2024,ReciÃ©ved partial refund,,north
+151,hank moore,hank.moore150@example.com,73,300.38,Active,uk,"September 28, 2024",sample,,north
+152,Hank Moor,hank.moor151@example.com,32,483.05,Active,UK,2024-10-19,�� corrupted note �,,north
+153,Grace Wilso,grace.wilso152@example.com,37,164.22,Active,USA,03/07/2024,test,,north
+154,David Brow,none,84,42.55,Active,USA,2024-11-20,Café latte discount applied,,north
+155,Bob  Smith,bob.smith154@example.com,44,-,Active,UK,2023-11-12,Café latte discount applied,,south
+156,Jack Anderson,jack.anderson155@example.com,61,407.94,ACTIVE,usa,2023-08-13,ReciÃ©ved partial refund,,north
+157,carol white,carol.white156@example.com,19,?,active,U.S.A.,"July 05, 2024",test,,north
+158,  Grace Wilson  ,grace.wilson157@mail.com,63,315.44,Active,United States,07/26/2024,Rejected – invalid coupon,,north
+159,hank moore,hank.moore158@example.com,56,359.26,Active,U.S.A.,2023-01-02,Customer requested faster shipping.,,north
+160,BOB SMITH,,28,439.23,active,uk,2023-03-10,México office follow-up,,north
+161,eve davis,eve.davis160@test.org,?,452.14,active,UK,06/14/2024,Customer requested faster shipping.,,north
+162,Carol White,carol.white161@test.org,999,438.3,Active,United States,24-11-2023,Customer requested faster shipping.,,north
+163,Ivy Taylor,ivy.taylor162@test.org,58,69.76,Inactive,United Kingdom,01-08-2024,Customer requested faster shipping.,,north
+164,FRANK MILLER,frank.miller163@test.org,37,83.07,Active,UK,"July 22, 2024",�� corrupted note �,,north
+165,Hank  Moore,hank.moore164@test.org,18,248.71,inactive,uk,17-01-2024,test,,north
+166,  Jack Anderson  ,jack.anderson165@mail.com,69,-250.0,Active,usa,21-03-2023,México office follow-up,,north
+167,Bob  Smith,bob.smith166@example.com,60,,active,uk,05/18/2024,sample,,north
+168,Eve  Davis,eve.davis167@mail.com,,226.09,active,USA,2023-09-13,Customer requested faster shipping.,,north
+169,david brown,david.brown168@test.org,33,121.7,Active,USA,03-01-2023,Customer requested faster shipping.,,north
+170,Bob Smith,bob.smith169@test.org,81,1000000.0,Active,usa,07/22/2024,Café latte discount applied,,north
+171,  Hank Moore  ,hank.moore170@mail.com,62,30.48,active,usa,13-08-2024,test,,north
+172,Carol  White,carol.white171@test.org,56,207.66,Active,United States,2024-09-28,test,,north
+173,Eve  Davis,eve.davis172@test.org,67,363.85,active,United States,07/01/2024,sample,,north
+174,alice johnson,alice.johnson173@example.com,40,131.16, Active,UK,18-07-2023,test,,north
+175,HANK MOORE,hank.moore174@example.com,85,131.54,Active,uk,22-06-2023,lorem ipsum dolor sit amet,,north
+176,  Grace Wilson  ,grace.wilson175@test.org,87,291.13,active,United Kingdom,10-04-2024,�� corrupted note �,,north
+177,Alice Johnso,alice.johnso176@mail.com,,496.27, Active,U.S.A.,08/22/2023,test,,north
+178,Grace Wilso,grace.wilso177@mail.com,60,188.42, Active,U.S.A.,"November 26, 2024",Customer requested faster shipping.,,north
+179,Ivy Taylo,ivy.taylo178@example.com,18,129.08,Active,U.S.A.,25-09-2023,México office follow-up,,north
+180,IVY TAYLOR,ivy.taylor179@mail.com,67,64.83,Inactive,USA,13-03-2023,sample,,north
+181,Jack Anderson,jack.anderson180@mail.com,43,247.84, Active,United States,06-04-2024,,,north
+182,Grace Wilso,,-5,164.63,active,United States,2024-06-02,lorem ipsum dolor sit amet,,north
+183,Hank Moore,hank.moore182@mail.com,78,56.35,Active,uk,05/03/2023,México office follow-up,,north
+184,Ivy  Taylor,ivy.taylor183@mail.com,38,472.79,Active,United Kingdom,"April 09, 2023",Rejected – invalid coupon,,north
+185,Ivy Taylor,ivy.taylor184@test.org,19,258.7,Active,United Kingdom,08-09-2024,Customer requested faster shipping.,,north
+186,CAROL WHITE,carol.white185@example.com,,274.01,Inactive,UK,05/15/2024,Customer requested faster shipping.,,north
+187,BOB SMITH,bob.smith186@example.com,50,25.07,active,USA,"April 01, 2023",sample,,north
+188,EVE DAVIS,eve.davis187@example.com,44,268.7,ACTIVE,uk,2024-02-21,México office follow-up,,north
+189,carol white,carol.white188@mail.com,999,327.12,Active,United Kingdom,26-04-2024,Customer requested faster shipping.,,north
+190,hank moore,hank.moore189@test.org,unknown,235.01, Active,United States,08/12/2024,Café latte discount applied,,north
+191,jack anderson,jack.anderson190@example.com,48,431.78,active,UK,"March 15, 2023",Customer requested faster shipping.,,north
+192,Jack  Anderson,jack.anderson191@example.com,-,477.92,Active,uk,"April 10, 2023",urgent,,north
+193,CAROL WHITE,carol.white192@test.org,58,335.49, Active,uk,13-10-2024,sample,,north
+194,David  Brown,david.brown193@example.com,,12.86,active,United Kingdom,29-09-2023,Customer requested faster shipping.,,north
+195,BOB SMITH,bob.smith194@test.org,44,358.07,Inactive,uk,06/18/2024,México office follow-up,,north
+196,Bob Smit,bob.smit195@test.org,37,141.57,Active,USA,11-07-2024,sample,,north
+197,ALICE JOHNSON,alice.johnson196@test.org,24,-250.0,active,usa,03/31/2024,Café latte discount applied,,north
+198,eve davis,eve.davis197@test.org,49,,Active,United Kingdom,2024-01-12,Café latte discount applied,,north
+199,Frank Miller,frank.miller198@mail.com,unknown,405.77,active,United Kingdom,01-01-2024,Rejected – invalid coupon,,north
+200,Ivy  Taylor,ivy.taylor199@example.com,61,138.5,Active,U.S.A.,"September 23, 2024",Customer requested faster shipping.,,north
+201,Grace Wilso,grace.wilso200@test.org,40,160.35,Active,UK,09/04/2024,sample,,north
+202,Eve  Davis,eve.davis201@test.org,44,141.99,Active,U.S.A.,01/13/2024,Rejected – invalid coupon,,north
+203,Carol  White,carol.white202@example.com,53,13.83,active,United Kingdom,03/06/2024,lorem ipsum dolor sit amet,,north
+204,carol white,carol.white203@mail.com,36,20.38,active,USA,02-04-2024,México office follow-up,,north
+205,Hank  Moore,hank.moore204@test.org,84,286.72,Active,USA,12-04-2023,lorem ipsum dolor sit amet,,north
+206,DAVID BROWN,david.brown205@example.com,86,420.07,Active,U.S.A.,05-05-2024,Customer requested faster shipping.,,north
+207,Carol Whit,carol.whit206@mail.com,68,138.25,active,U.S.A.,2023-05-25,lorem ipsum dolor sit amet,,north
+208,Eve Davis,eve.davis207@test.org,84,387.38, Active,United Kingdom,06/30/2023,Customer requested faster shipping.,,north
+209,Jack Anderson,-,29,412.74, Active,uk,2023-03-21,Customer requested faster shipping.,,north
+210,ALICE JOHNSON,alice.johnson209@example.com,36,478.42,ACTIVE,United States,"August 29, 2023",Rejected – invalid coupon,,north
+211,  Frank Miller  ,frank.miller210@example.com,56,139.77,Active,usa,31-05-2023,Customer requested faster shipping.,,north
+212,ivy taylor,ivy.taylor211@example.com,34,132.33,ACTIVE,UK,"December 27, 2023",lorem ipsum dolor sit amet,,north
+213,BOB SMITH,bob.smith212@example.com,46,133.76,Active,United States,03/22/2024,,,north
+214,David  Brown,david.brown213@test.org,86,16.62,inactive,United States,"March 13, 2023",Customer requested faster shipping.,,north
+215,Bob Smit,bob.smit214@test.org,60,,Active,United Kingdom,12/02/2023,Customer requested faster shipping.,,north
+216,david brown,david.brown215@test.org,61,414.66,active,U.S.A.,2024-01-08,sample,,north
+217,Grace Wilson,grace.wilson216@example.com,75,27.94,Inactive,United States,03-04-2024,ReciÃ©ved partial refund,,south
+218,Eve Davi,eve.davi217@example.com,?,266.68,Inactive,usa,09/03/2023,ReciÃ©ved partial refund,,north
+219,DAVID BROWN,david.brown218@example.com,22,,Active,U.S.A.,04/08/2023,Customer requested faster shipping.,,north
+220,Ivy Taylo,ivy.taylo219@mail.com,55,157.77,ACTIVE,usa,"May 09, 2023",sample,,north
+221,Hank Moore,hank.moore220@example.com,48,474.22,Active,USA,23-11-2023,test,,north
+222,eve davis,eve.davis221@mail.com,20,111.77,Active,usa,"October 19, 2023",Customer requested faster shipping.,,north
+223,Frank  Miller,frank.miller222@mail.com,57,241.81,Active,United States,09/09/2023,México office follow-up,,north
+224,David  Brown,david.brown223@mail.com,56,225.47,Active,uk,11-05-2024,Customer requested faster shipping.,,north
+225,Carol  White,carol.white224@mail.com,38,285.68, Active,uk,08/15/2024,Customer requested faster shipping.,,north
+226,HANK MOORE,?,21,47.22,ACTIVE,United States,11-09-2024,�� corrupted note �,,north
+227,Eve  Davis,none,28,,active,United States,"April 20, 2023",Customer requested faster shipping.,,north
+228,Alice  Johnson,alice.johnson227@test.org,60,465.04,Active,usa,16-12-2023,Rejected – invalid coupon,,north
+229,Jack Anderso,jack.anderso228@example.com,unknown,186.37,Active,U.S.A.,"April 15, 2024",Customer requested faster shipping.,,north
+230,Grace Wilso,,-,443.65,ACTIVE,USA,07-10-2023,�� corrupted note �,,north
+231,david brown,david.brown230@mail.com,50,271.42,Active,usa,2024-08-14,,,north
+232,Alice Johnso,alice.johnso231@test.org,89,189.75,Active,usa,"July 30, 2024",Café latte discount applied,,north
+233,David Brown,david.brown232@example.com,84,66.41,active,United States,"May 19, 2024",México office follow-up,,north
+234,Eve Davis,eve.davis233@test.org,39,328.13,Inactive,UK,29-08-2024,test,,north
+235,BOB SMITH,bob.smith234@example.com,74,414.95,active,UK,11/28/2024,,,north
+236,DAVID BROWN,david.brown235@test.org,47,328.03, Active,U.S.A.,"May 30, 2024",Rejected – invalid coupon,,north
+237,Eve  Davis,eve.davis236@test.org,unknown,260.66,Active,USA,"March 30, 2023",Rejected – invalid coupon,,south
+238,grace wilson,grace.wilson237@example.com,62,175.65,ACTIVE,uk,04-02-2024,Customer requested faster shipping.,,north
+239,Bob  Smith,bob.smith238@mail.com,,68.27,ACTIVE,USA,2024-08-07,lorem ipsum dolor sit amet,,north
+240,Grace Wilson,grace.wilson239@example.com,44,243.66,ACTIVE,United States,16-11-2023,,,north
+241,  Ivy Taylor  ,ivy.taylor240@example.com,,486.03,Active,U.S.A.,"June 09, 2024",Customer requested faster shipping.,,north
+242,bob smith,bob.smith241@mail.com,31,127.42,active,USA,11/05/2023,sample,,north
+243,  Ivy Taylor  ,ivy.taylor242@example.com,64,479.65,Active,U.S.A.,04/01/2024,lorem ipsum dolor sit amet,,north
+244,Jack  Anderson,jack.anderson243@test.org,,332.92,Active,United States,"September 03, 2023",ReciÃ©ved partial refund,,north
+245,FRANK MILLER,frank.miller244@test.org,67,258.82,Active,usa,2024-03-30,lorem ipsum dolor sit amet,,north
+246,  Frank Miller  ,frank.miller245@mail.com,46,,active,UK,2024-01-20,ReciÃ©ved partial refund,,north
+247,IVY TAYLOR,ivy.taylor246@mail.com,-5,154.42,Inactive,U.S.A.,03/15/2023,Rejected – invalid coupon,,north
+248,Bob  Smith,none,unknown,296.65,Active,usa,2024-03-12,�� corrupted note �,,north
+249,Grace Wilso,grace.wilso248@mail.com,79,354.56,ACTIVE,United States,2023-09-17,test,,north
+250,  Frank Miller  ,frank.miller249@test.org,77,56.28,ACTIVE,U.S.A.,2023-02-08,�� corrupted note �,,north
+251,  David Brown  ,david.brown250@example.com,50,436.29,Active,UK,05/17/2024,urgent,,north
+252,Grace  Wilson,grace.wilson251@example.com,52,273.69,ACTIVE,United Kingdom,"June 01, 2023",Café latte discount applied,,north
+253,carol white,carol.white252@mail.com,,,Active,uk,02/21/2023,ReciÃ©ved partial refund,,north
+254,hank moore,hank.moore253@mail.com,56,366.43,Active,uk,"December 28, 2023",lorem ipsum dolor sit amet,,south
+255,carol white,carol.white254@mail.com,42,472.67,ACTIVE,United States,2024-08-09,Café latte discount applied,,north
+256,  Ivy Taylor  ,ivy.taylor255@test.org,71,433.32,Active,USA,07/10/2023,Customer requested faster shipping.,,north
+257,FRANK MILLER,frank.miller256@example.com,35,323.76,Inactive,United States,19-08-2024,test,,north
+258,David Brow,david.brow257@example.com,61,82.79,active,usa,"April 01, 2024",ReciÃ©ved partial refund,,north
+259,Hank  Moore,hank.moore258@mail.com,30,247.7,active,UK,"July 15, 2023",lorem ipsum dolor sit amet,,north
+260,ivy taylor,ivy.taylor259@mail.com,-,99.83,Inactive,U.S.A.,"February 09, 2023",sample,,north
+261,BOB SMITH,bob.smith260@mail.com,86,240.16,active,United States,10-08-2024,lorem ipsum dolor sit amet,,north
+262,Bob Smit,bob.smit261@test.org,32,289.12,active,United Kingdom,2024-09-04,Customer requested faster shipping.,,north
+263,JACK ANDERSON,jack.anderson262@mail.com,  ,457.62,active,USA,"September 11, 2023",Customer requested faster shipping.,,north
+264,FRANK MILLER,,20,490.21,Active,uk,2024-06-29,Customer requested faster shipping.,,north
+265,IVY TAYLOR,ivy.taylor264@test.org,63,372.46,Active,United States,2024-10-20,Customer requested faster shipping.,,north
+266,GRACE WILSON,grace.wilson265@test.org,38,175.26,Active,U.S.A.,02/13/2024,�� corrupted note �,,north
+267,Hank Moore,hank.moore266@test.org,,132.97,Inactive,U.S.A.,"August 31, 2023",sample,,north
+268,hank moore,hank.moore267@mail.com,,85.43,active,uk,09/02/2024,sample,,north
+269,ivy taylor,ivy.taylor268@example.com,76,205.37,ACTIVE,USA,2024-05-26,Rejected – invalid coupon,,north
+270,Hank Moor,hank.moor269@test.org,,476.53,Active,U.S.A.,02/11/2024,Café latte discount applied,,north
+271,Eve  Davis,eve.davis270@example.com,69,184.48,ACTIVE,USA,2024-02-02,Rejected – invalid coupon,,north
+272,ivy taylor,ivy.taylor271@mail.com,31,57.75,Active,USA,20-10-2023,�� corrupted note �,,north
+273,  Alice Johnson  ,alice.johnson272@example.com,69,308.81,Active,uk,03-06-2023,Customer requested faster shipping.,,north
+274,Bob Smith,bob.smith273@example.com,71,232.04,Inactive,United Kingdom,2023-01-16,Customer requested faster shipping.,,north
+275,  Ivy Taylor  ,ivy.taylor274@example.com,56,371.54,ACTIVE,USA,"January 16, 2024",Customer requested faster shipping.,,north
+276,David Brow,david.brow275@mail.com,?,364.69,active,UK,"December 05, 2023",Café latte discount applied,,north
+277,EVE DAVIS,eve.davis276@test.org,65,104.9,Active,usa,17-06-2023,Customer requested faster shipping.,,north
+278,Grace Wilso,grace.wilso277@example.com,88,409.54,Active,UK,2023-11-30,Café latte discount applied,,north
+279,Alice Johnso,-,36,242.91, Active,United States,05-08-2023,Customer requested faster shipping.,,north
+280,Frank Mille,frank.mille279@mail.com,,385.35,Active,USA,2024-09-03,,,north
+281,Ivy Taylo,ivy.taylo280@test.org,58,223.75,active,United Kingdom,07-05-2024,test,,north
+282,  David Brown  ,david.brown281@example.com,57,,Active,uk,03-11-2024,test,,north
+283,HANK MOORE,hank.moore282@test.org,21,110.47,Inactive,U.S.A.,"October 13, 2024",Customer requested faster shipping.,,north
+284,Carol  White,carol.white283@test.org,22,343.06,active,United Kingdom,2023-10-17,Rejected – invalid coupon,,north
+285,Jack Anderso,jack.anderso284@example.com,,378.94,Active,United States,"August 14, 2024",sample,,north
+286,ivy taylor,ivy.taylor285@mail.com,32,409.99,active,usa,"February 24, 2024",Café latte discount applied,,north
+287,carol white,carol.white286@mail.com,61,238.08,active,United Kingdom,21-09-2024,ReciÃ©ved partial refund,,north
+288,Hank  Moore,hank.moore287@test.org,79,-250.0,inactive,U.S.A.,12-07-2023,lorem ipsum dolor sit amet,,north
+289,Carol Whit,carol.whit288@test.org,74,133.09,inactive,USA,03/22/2023,Café latte discount applied,,north
+290,Grace Wilson,grace.wilson289@test.org,86,43.05, Active,United Kingdom,11-02-2023,sample,,north
+291,FRANK MILLER,frank.miller290@mail.com,unknown,485.59,active,uk,08/03/2024,Customer requested faster shipping.,,north
+292,ivy taylor,ivy.taylor291@mail.com,75,394.94,Inactive,uk,"June 01, 2023",Customer requested faster shipping.,,north
+293,Alice Johnso,alice.johnso292@mail.com,36,321.17,Active,usa,2023-08-29,Customer requested faster shipping.,,north
+294,Eve  Davis,eve.davis293@test.org,,,Active,USA,25-07-2023,Customer requested faster shipping.,,north
+295,Bob Smit,bob.smit294@example.com,46,353.75,active,United Kingdom,"September 10, 2024",Café latte discount applied,,north
+296,Eve Davis,eve.davis295@mail.com,43,, Active,USA,01/07/2023,México office follow-up,,north
+297,Grace Wilson,grace.wilson296@test.org,47,118.38,Active,usa,2024-04-14,lorem ipsum dolor sit amet,,north
+298,Hank Moore,hank.moore297@test.org,33,,Active,UK,07/24/2024,Customer requested faster shipping.,,north
+299,Alice Johnso,alice.johnso298@example.com,,?,ACTIVE,U.S.A.,2023-12-16,urgent,,north
+300,  Grace Wilson  ,grace.wilson299@example.com,45,410.88,Active,usa,2024-01-01,Customer requested faster shipping.,,north
+301,David  Brown,david.brown300@example.com,,297.78,Inactive,usa,"July 30, 2024",Café latte discount applied,,north
+302,bob smith,bob.smith301@test.org,unknown,89.83,Active,usa,2023-02-27,México office follow-up,,north
+303,Ivy Taylo,ivy.taylo302@mail.com,  ,271.86, Active,uk,"October 03, 2024",sample,,north
+304,Frank Mille,frank.mille303@test.org,56,161.3,active,UK,13-05-2023,Customer requested faster shipping.,,north
+305,David Brow,david.brow304@test.org,28,,Inactive,United States,2024-05-07,Café latte discount applied,,north
+306,  Carol White  ,carol.white305@test.org,39,310.25,ACTIVE,usa,22-11-2023,Rejected – invalid coupon,,north
+307,  Bob Smith  ,bob.smith306@test.org,77,264.13,ACTIVE,U.S.A.,"January 07, 2024",Rejected – invalid coupon,,north
+308,  David Brown  ,david.brown307@mail.com,31,435.62,Active,uk,"November 11, 2023",sample,,north
+309,EVE DAVIS,eve.davis308@example.com,,1000000.0,Active,usa,2023-03-16,Café latte discount applied,,north
+310,David Brown,david.brown309@example.com,,382.54,active,uk,2024-03-13,,,north
+311,Eve  Davis,eve.davis310@example.com,  ,279.81,Active,United States,"January 06, 2023",lorem ipsum dolor sit amet,,north
+312,  Bob Smith  ,bob.smith311@mail.com,30,58.48,inactive,U.S.A.,28-12-2023,Rejected – invalid coupon,,north
+313,Jack  Anderson,jack.anderson312@test.org,30,133.55,active,UK,2024-09-25,,,north
+314,Alice Johnso,alice.johnso313@test.org,-5,225.3, Active,usa,07-04-2023,lorem ipsum dolor sit amet,,north
+315,  Hank Moore  ,hank.moore314@test.org,61,456.67,Active,U.S.A.,04/28/2023,México office follow-up,,north
+316,Alice Johnso,alice.johnso315@mail.com,36,301.5,Active,United Kingdom,"April 18, 2024",Café latte discount applied,,north
+317,Carol White,carol.white316@mail.com,44,485.81,Active,United Kingdom,23-08-2023,lorem ipsum dolor sit amet,,north
+318,  David Brown  ,david.brown317@example.com,30,163.96,Active,usa,"May 31, 2024",lorem ipsum dolor sit amet,,north
+319,HANK MOORE,hank.moore318@example.com,57,459.26, Active,United Kingdom,10/16/2024,Customer requested faster shipping.,,north
+320,Alice Johnso,alice.johnso319@example.com,53,115.15, Active,usa,19-04-2024,ReciÃ©ved partial refund,,north
+321,Jack Anderson,jack.anderson320@example.com,unknown,279.22, Active,uk,13-02-2024,México office follow-up,,north
+322,BOB SMITH,bob.smith321@test.org,20,130.49,Active,uk,25-10-2024,Customer requested faster shipping.,,north
+323,David Brow,,42,301.21, Active,USA,08/22/2024,lorem ipsum dolor sit amet,,north
+324,Jack Anderso,jack.anderso323@mail.com,37,80.01,Active,uk,07/07/2023,,,north
+325,David Brown,david.brown324@mail.com,29,13.84, Active,United States,26-03-2024,ReciÃ©ved partial refund,,north
+326,CAROL WHITE,carol.white325@example.com,48,111.19,Active,USA,2023-03-17,urgent,,north
+327,EVE DAVIS,eve.davis326@mail.com,unknown,-250.0,inactive,United States,10/05/2024,lorem ipsum dolor sit amet,,north
+328,Grace Wilson,grace.wilson327@mail.com,79,47.84,ACTIVE,United States,22-08-2024,Customer requested faster shipping.,,north
+329,BOB SMITH,bob.smith328@example.com,75,293.87,Inactive,usa,"January 05, 2024",Customer requested faster shipping.,,north
+330,bob smith,?,42,301.87,ACTIVE,U.S.A.,10/19/2024,test,,north
+331,Frank  Miller,frank.miller330@example.com,72,320.09,active,usa,07-10-2024,sample,,north
+332,  Jack Anderson  ,?,73,499.96,Active,United States,"July 21, 2024",test,,north
+333,Jack Anderso,jack.anderso332@example.com,44,485.56,inactive,UK,02/20/2023,,,north
+334,ivy taylor,,24,-250.0,active,UK,2024-11-08,ReciÃ©ved partial refund,,north
+335,Eve Davis,eve.davis334@example.com,51,-,Active,usa,2024-11-19,test,,north
+336,hank moore,hank.moore335@test.org,72,412.19,Active,usa,03/29/2023,,,north
+337,Ivy Taylo,?,73,344.21,inactive,United States,04/19/2024,Customer requested faster shipping.,,north
+338,BOB SMITH,bob.smith337@example.com,75,113.53,active,UK,2024-02-24,Customer requested faster shipping.,,north
+339,  Carol White  ,,80,171.85,Active,UK,2023-02-14,sample,,north
+340,BOB SMITH,bob.smith339@mail.com,85,260.39,Active,uk,05/07/2023,Customer requested faster shipping.,,north
+341,bob smith,bob.smith340@example.com,unknown,-250.0, Active,uk,2024-10-21,Café latte discount applied,,north
+342,david brown,david.brown341@test.org,30,20.11,active,U.S.A.,"March 18, 2024",urgent,,north
+343,Eve Davi,eve.davi342@test.org,76,206.07,Active,uk,2023-08-21,test,,north
+344,  Carol White  ,carol.white343@example.com,81,247.81, Active,U.S.A.,2024-02-07,,,north
+345,HANK MOORE,hank.moore344@mail.com,66,236.1,active,United States,22-03-2023,,,north
+346,Jack Anderson,jack.anderson345@mail.com,52,433.04,Active,USA,12-02-2024,Café latte discount applied,,north
+347,Carol White,carol.white346@mail.com,81,14.88,Active,United States,02/06/2024,ReciÃ©ved partial refund,,north
+348,Carol White,carol.white347@test.org,79,177.82,inactive,USA,04/20/2023,ReciÃ©ved partial refund,,north
+349,grace wilson,grace.wilson348@test.org,unknown,127.81,ACTIVE,usa,25-04-2023,ReciÃ©ved partial refund,,north
+350,  Alice Johnson  ,alice.johnson349@test.org,24,111.84,Active,UK,2023-10-03,Rejected – invalid coupon,,north
+351,hank moore,hank.moore350@test.org,46,335.82, Active,UK,2024-01-06,test,,north
+352,FRANK MILLER,frank.miller351@test.org,75,282.58,Inactive,UK,06/04/2024,México office follow-up,,north
+353,EVE DAVIS,eve.davis352@mail.com,76,342.08,ACTIVE,UK,2023-01-03,Customer requested faster shipping.,,north
+354,Jack  Anderson,jack.anderson353@example.com,21,89.68,Active,usa,2024-02-15,Customer requested faster shipping.,,north
+355,IVY TAYLOR,,31,215.02,Inactive,usa,2024-03-21,Customer requested faster shipping.,,north
+356,bob smith,bob.smith355@test.org,36,219.15,Inactive,UK,08-09-2023,urgent,,north
+357,Frank Miller,frank.miller356@example.com,84,47.74, Active,UK,"February 12, 2023",lorem ipsum dolor sit amet,,north
+358,  Grace Wilson  ,grace.wilson357@example.com,78,409.72, Active,usa,28-06-2023,Customer requested faster shipping.,,north
+359,jack anderson,jack.anderson358@example.com,,295.0,active,USA,"July 18, 2024",lorem ipsum dolor sit amet,,north
+360,Bob Smit,bob.smit359@test.org,71,94.48,active,U.S.A.,2023-12-19,México office follow-up,,north
+361,ivy taylor,ivy.taylor360@example.com,,450.12, Active,usa,16-11-2024,Customer requested faster shipping.,,north
+362,Carol  White,carol.white361@test.org,37,449.46,active,uk,"April 06, 2024",Customer requested faster shipping.,,north
+363,hank moore,hank.moore362@mail.com,38,12.04,Active,UK,16-02-2024,Customer requested faster shipping.,,north
+364,Ivy  Taylor,ivy.taylor363@mail.com,46,117.22, Active,U.S.A.,2023-11-08,test,,north
+365,Hank  Moore,hank.moore364@example.com,45,-250.0,active,uk,"November 13, 2024",sample,,north
+366,Eve  Davis,eve.davis365@test.org,73,?,active,uk,"December 05, 2023",Customer requested faster shipping.,,north
+367,  Jack Anderson  ,jack.anderson366@mail.com,34,-, Active,U.S.A.,08-05-2023,,,north
+368,Jack Anderso,jack.anderso367@test.org,88,418.74,Active,U.S.A.,07/14/2023,Customer requested faster shipping.,,north
+369,Bob Smith,bob.smith368@mail.com,20,304.58,ACTIVE,UK,2023-11-21,Customer requested faster shipping.,,north
+370,david brown,david.brown369@test.org,52,253.44,ACTIVE,usa,2023-04-15,Customer requested faster shipping.,,north
+371,CAROL WHITE,carol.white370@test.org,49,104.84,Active,United Kingdom,2023-10-31,Customer requested faster shipping.,,north
+372,DAVID BROWN,,73,8.21,Active,United States,"January 07, 2023",�� corrupted note �,,north
+373,Frank Miller,frank.miller372@example.com,60,272.55,ACTIVE,USA,2024-03-24,Customer requested faster shipping.,,north
+374,Jack Anderson,jack.anderson373@example.com,58,347.34,ACTIVE,United States,12/09/2023,test,,north
+375,carol white,carol.white374@example.com,45,8.66,inactive,UK,2023-06-30,Customer requested faster shipping.,,north
+376,Grace Wilson,grace.wilson375@test.org,,186.7,active,usa,2023-12-21,Café latte discount applied,,north
+377,ivy taylor,ivy.taylor376@example.com,54,437.25,Inactive,USA,10/07/2024,sample,,north
+378,Hank  Moore,hank.moore377@mail.com,49,16.74,Inactive,UK,2023-10-24,Customer requested faster shipping.,,north
+379,  Eve Davis  ,none,58,6.05, Active,UK,2023-09-27,Café latte discount applied,,north
+380,Frank Miller,frank.miller379@example.com,38,178.48,Inactive,usa,2024-04-29,México office follow-up,,north
+381,HANK MOORE,hank.moore380@example.com,57,197.96,Inactive,UK,2023-01-20,Customer requested faster shipping.,,north
+382,hank moore,hank.moore381@mail.com,66,426.63,active,United States,2023-01-18,Customer requested faster shipping.,,south
+383,David  Brown,david.brown382@test.org,  ,363.6,active,United States,12-01-2024,�� corrupted note �,,north
+384,JACK ANDERSON,jack.anderson383@example.com,,263.43,Active,usa,08/03/2024,México office follow-up,,north
+385,frank miller,frank.miller384@mail.com,39,244.74,active,United States,04/26/2023,Customer requested faster shipping.,,north
+386,  Jack Anderson  ,jack.anderson385@example.com,38,411.92,active,United States,11/01/2024,Café latte discount applied,,north
+387,Ivy Taylor,ivy.taylor386@example.com,  ,75.48,Active,uk,01/04/2023,Customer requested faster shipping.,,north
+388,Bob Smit,bob.smit387@test.org,-5,383.95,active,United Kingdom,14-10-2024,sample,,north
+389,Hank Moor,hank.moor388@test.org,50,315.31,Active,USA,28-11-2023,México office follow-up,,north
+390,Jack Anderso,jack.anderso389@example.com,51,450.17,active,U.S.A.,02/19/2023,Customer requested faster shipping.,,north
+391,Ivy Taylo,ivy.taylo390@mail.com,83,423.12,Active,USA,"November 08, 2024",sample,,north
+392,Carol White,carol.white391@test.org,-,77.99, Active,uk,02/10/2024,Café latte discount applied,,north
+393,Hank Moor,hank.moor392@example.com,74,395.15,active,United States,22-04-2024,Customer requested faster shipping.,,north
+394,Jack Anderso,jack.anderso393@test.org,47,-,Active,USA,2023-01-23,Café latte discount applied,,north
+395,david brown,david.brown394@example.com,69,260.48,active,UK,07/02/2023,Customer requested faster shipping.,,north
+396,david brown,david.brown395@mail.com,32,180.44, Active,United Kingdom,22-12-2023,Customer requested faster shipping.,,north
+397,Alice Johnso,alice.johnso396@test.org,89,162.62,ACTIVE,U.S.A.,04-01-2023,Customer requested faster shipping.,,north
+398,HANK MOORE,hank.moore397@test.org,28,349.54,Active,U.S.A.,26-04-2024,Customer requested faster shipping.,,north
+399,David Brown,david.brown398@test.org,69,368.1,Inactive,U.S.A.,02/21/2024,Customer requested faster shipping.,,north
+400,Ivy  Taylor,ivy.taylor399@test.org,84,421.04,Active,United States,04/17/2024,México office follow-up,,north
+401,jack anderson,jack.anderson400@example.com,25,,Active,USA,"June 14, 2024",Customer requested faster shipping.,,north
+402,Ivy Taylor,ivy.taylor401@test.org,61,392.98,active,usa,"July 02, 2024",test,,north
+403,FRANK MILLER,frank.miller402@mail.com,59,318.17,ACTIVE,uk,11/23/2024,Café latte discount applied,,north
+404,Carol  White,carol.white403@test.org,20,73.41,Active,U.S.A.,08-10-2024,�� corrupted note �,,north
+405,CAROL WHITE,,24,338.4,Active,UK,"October 07, 2023",Customer requested faster shipping.,,north
+406,Bob Smith,bob.smith405@example.com,40,161.12,inactive,United States,05/15/2023,Café latte discount applied,,north
+407,David  Brown,david.brown406@example.com,77,210.31,active,UK,07/12/2023,Customer requested faster shipping.,,north
+408,Eve Davi,eve.davi407@mail.com,,70.64,ACTIVE,UK,22-09-2023,Customer requested faster shipping.,,north
+409,bob smith,bob.smith408@example.com,48,325.29,Active,UK,01-03-2023,lorem ipsum dolor sit amet,,north
+410,Frank Mille,frank.mille409@mail.com,34,46.16,active,usa,2024-02-15,�� corrupted note �,,north
+411,Eve Davi,eve.davi410@mail.com,24,96.35,active,uk,05/31/2023,Café latte discount applied,,north
+412,Ivy  Taylor,ivy.taylor411@mail.com,27,239.43, Active,United States,06/21/2023,Customer requested faster shipping.,,north
+413,Ivy Taylor,ivy.taylor412@mail.com,84,111.69,active,United States,01-07-2023,sample,,north
+414,  Carol White  ,carol.white413@mail.com,53,,active,U.S.A.,26-02-2023,�� corrupted note �,,north
+415,  Carol White  ,carol.white414@example.com,81,59.71,Active,United States,"May 18, 2023",Café latte discount applied,,north
+416,Alice Johnso,alice.johnso415@example.com,18,182.97,Active,UK,2024-07-27,,,north
+417,Carol White,carol.white416@example.com,unknown,144.42, Active,UK,09-11-2023,México office follow-up,,north
+418,  Hank Moore  ,hank.moore417@test.org,38,411.3,inactive,U.S.A.,"December 30, 2023",Customer requested faster shipping.,,north
+419,Eve Davi,eve.davi418@example.com,71,65.59,inactive,United States,2024-05-02,ReciÃ©ved partial refund,,north
+420,eve davis,eve.davis419@example.com,unknown,95.79,active,uk,06-07-2024,Customer requested faster shipping.,,north
+421,Alice  Johnson,alice.johnson420@example.com,30,192.12,Active,United Kingdom,25-02-2024,,,north
+422,Frank Mille,frank.mille421@example.com,52,203.04,Active,uk,"December 26, 2023",lorem ipsum dolor sit amet,,north
+423,BOB SMITH,-,32,419.44,Active,U.S.A.,"September 17, 2023",urgent,,north
+424,Hank Moor,hank.moor423@mail.com,80,-250.0,inactive,uk,2024-05-02,test,,north
+425,HANK MOORE,hank.moore424@test.org,34,237.47,active,uk,2023-03-08,�� corrupted note �,,north
+426,Grace Wilson,grace.wilson425@example.com,-,138.49,active,United Kingdom,11/05/2023,lorem ipsum dolor sit amet,,north
+427,  Hank Moore  ,hank.moore426@mail.com,65,282.11,active,USA,04/10/2024,sample,,north
+428,  Eve Davis  ,eve.davis427@test.org,29,475.68,Active,uk,"March 12, 2023",urgent,,north
+429,Alice Johnso,alice.johnso428@example.com,26,313.21,active,uk,06/20/2023,�� corrupted note �,,north
+430,Frank  Miller,frank.miller429@example.com,52,398.52,active,United Kingdom,04/22/2024,Customer requested faster shipping.,,north
+431,Jack Anderso,jack.anderso430@test.org,23,122.78,Active,United States,11-07-2024,México office follow-up,,north
+432,JACK ANDERSON,jack.anderson431@test.org,33,261.18,active,UK,2023-09-27,Café latte discount applied,,north
+433,Jack  Anderson,jack.anderson432@example.com,41,93.77, Active,uk,09/25/2024,Customer requested faster shipping.,,north
+434,Eve  Davis,eve.davis433@test.org,20,427.29, Active,U.S.A.,2023-04-04,sample,,north
+435,Alice Johnson,alice.johnson434@mail.com,58,273.77,Active,United States,"October 19, 2023",sample,,north
+436,GRACE WILSON,grace.wilson435@test.org,35,23.77,active,UK,"May 08, 2024",Rejected – invalid coupon,,north
+437,  Jack Anderson  ,jack.anderson436@test.org,83,303.78,ACTIVE,USA,"March 05, 2023",ReciÃ©ved partial refund,,north
+438,Bob  Smith,bob.smith437@mail.com,68,188.63,ACTIVE,United Kingdom,2023-11-21,,,north
+439,Alice  Johnson,,-5,203.8,Active,U.S.A.,"February 04, 2023",test,,north
+440,HANK MOORE,hank.moore439@example.com,74,196.85, Active,United States,27-05-2023,Customer requested faster shipping.,,north
+441,Hank  Moore,hank.moore440@test.org,87,348.19,active,usa,25-06-2023,lorem ipsum dolor sit amet,,north
+442,david brown,david.brown441@test.org,77,146.14,Active,United Kingdom,2023-09-19,Customer requested faster shipping.,,south
+443,alice johnson,alice.johnson442@mail.com,62,141.76,Active,United States,07/29/2023,lorem ipsum dolor sit amet,,north
+444,Carol White,carol.white443@mail.com,61,,Active,United Kingdom,25-10-2023,Customer requested faster shipping.,,north
+445,frank miller,frank.miller444@test.org,31,483.75,active,USA,"March 16, 2023",Customer requested faster shipping.,,north
+446,  Hank Moore  ,hank.moore445@example.com,53,52.7,ACTIVE,U.S.A.,16-03-2023,lorem ipsum dolor sit amet,,north
+447,Ivy Taylo,ivy.taylo446@mail.com,,49.5,active,U.S.A.,"April 28, 2024",Customer requested faster shipping.,,north
+448,Jack Anderso,jack.anderso447@example.com,80,-,Active,USA,2023-03-15,Customer requested faster shipping.,,north
+449,Bob  Smith,bob.smith448@example.com,54,452.54,Active,U.S.A.,2023-06-07,Rejected – invalid coupon,,north
+450,Eve Davi,,81,423.0,Active,United States,25-01-2023,Customer requested faster shipping.,,north
+451,  Bob Smith  ,bob.smith450@example.com,85,135.21, Active,usa,06/17/2024,�� corrupted note �,,north
+452,Ivy  Taylor,ivy.taylor451@test.org,71,193.02,Active,usa,11/26/2023,Customer requested faster shipping.,,south
+453,Alice Johnso,alice.johnso452@test.org,77,,active,uk,22-01-2023,Customer requested faster shipping.,,north
+454,David Brow,david.brow453@example.com,77,205.07,Active,U.S.A.,"July 25, 2024",Customer requested faster shipping.,,north
+455,Grace  Wilson,grace.wilson454@test.org,81,89.77,active,USA,10/13/2024,lorem ipsum dolor sit amet,,north
+456,  Eve Davis  ,,57,283.3,Active,U.S.A.,01-02-2023,,,north
+457,Bob  Smith,bob.smith456@example.com,39,233.9,Inactive,usa,04/16/2023,lorem ipsum dolor sit amet,,north
+458,  Carol White  ,carol.white457@mail.com,79,387.13,Active,United Kingdom,08/10/2023,México office follow-up,,north
+459,Bob Smit,bob.smit458@test.org,45,,Active,United Kingdom,08/06/2024,Café latte discount applied,,north
+460,  Jack Anderson  ,jack.anderson459@test.org,23,186.65,ACTIVE,U.S.A.,05-08-2023,sample,,north
+461,  Eve Davis  ,,61,163.47,Active,United Kingdom,"October 11, 2024",Customer requested faster shipping.,,north
+462,Alice Johnso,alice.johnso461@example.com,48,46.66,Active,uk,09/15/2024,Café latte discount applied,,north
+463,Ivy  Taylor,,22,241.36,active,United Kingdom,06/07/2024,Customer requested faster shipping.,,north
+464,  Alice Johnson  ,alice.johnson463@example.com,67,75.29,active,usa,24-01-2023,México office follow-up,,north
+465,Bob Smit,bob.smit464@mail.com,41,127.34,Active,UK,06-01-2023,test,,north
+466,  Ivy Taylor  ,ivy.taylor465@test.org,59,458.34,Active,uk,04-05-2024,Customer requested faster shipping.,,north
+467,David Brown,david.brown466@example.com,74,302.02,Active,usa,2023-10-15,sample,,north
+468,Alice Johnso,alice.johnso467@example.com,28,32.09,ACTIVE,USA,"February 21, 2024",México office follow-up,,north
+469,  Jack Anderson  ,jack.anderson468@test.org,25,431.87,ACTIVE,usa,2024-04-12,Customer requested faster shipping.,,north
+470,Hank Moor,hank.moor469@example.com,999,420.77,Inactive,United Kingdom,07-03-2024,,,north
+471,IVY TAYLOR,ivy.taylor470@example.com,82,434.18,Active,United Kingdom,01-09-2024,test,,north
+472,  Hank Moore  ,hank.moore471@mail.com,67,492.39, Active,United States,26-01-2024,urgent,,north
+473,Ivy Taylor,ivy.taylor472@mail.com,27,78.5,Active,United States,20-03-2024,Café latte discount applied,,north
+474,Carol  White,carol.white473@example.com,57,186.43,Active,United States,"April 17, 2023",lorem ipsum dolor sit amet,,north
+475,Eve  Davis,eve.davis474@test.org,unknown,167.42,active,U.S.A.,24-01-2023,�� corrupted note �,,north
+476,Ivy  Taylor,ivy.taylor475@test.org,77,480.9, Active,United Kingdom,2024-05-01,Customer requested faster shipping.,,south
+477,Hank Moor,hank.moor476@test.org,33,335.06,active,uk,02/18/2023,sample,,north
+478,Carol  White,carol.white477@test.org,19,367.17,Active,UK,"January 30, 2023",sample,,north
+479,  David Brown  ,david.brown478@mail.com,66,476.25,Active,U.S.A.,"June 16, 2024",Rejected – invalid coupon,,north
+480,bob smith,bob.smith479@mail.com,31,172.68,Inactive,U.S.A.,"July 02, 2024",test,,north
+481,david brown,david.brown480@test.org,83,436.64,Active,United States,"January 06, 2024",ReciÃ©ved partial refund,,north
+482,grace wilson,grace.wilson481@test.org,18,318.84,Inactive,United States,06-10-2024,ReciÃ©ved partial refund,,north
+483,  Carol White  ,-,76,264.81, Active,USA,08/19/2023,México office follow-up,,north
+484,Frank Miller,frank.miller483@test.org,73,101.56, Active,United States,"February 16, 2023",test,,north
+485,  Frank Miller  ,frank.miller484@example.com,71,173.03, Active,uk,2023-03-15,urgent,,north
+486,  David Brown  ,david.brown485@mail.com,,169.64,ACTIVE,USA,11/09/2024,Café latte discount applied,,north
+487,  Jack Anderson  ,none,39,480.73,active,uk,10/03/2024,test,,north
+488,Carol  White,carol.white487@example.com,65,336.48,active,USA,05/28/2024,lorem ipsum dolor sit amet,,north
+489,Hank Moore,hank.moore488@mail.com,58,443.42,Active,United States,2024-01-19,Rejected – invalid coupon,,north
+490,Carol White,carol.white489@test.org,29,66.11,ACTIVE,UK,"October 02, 2023",Customer requested faster shipping.,,north
+491,  Ivy Taylor  ,ivy.taylor490@example.com,80,,ACTIVE,UK,14-06-2023,test,,north
+492,david brown,,-,411.97,Active,USA,10/13/2024,México office follow-up,,north
+493,David Brown,david.brown492@test.org,56,247.79,ACTIVE,UK,2024-06-18,sample,,south
+494,  David Brown  ,david.brown493@example.com,  ,428.17,inactive,U.S.A.,"June 01, 2023",México office follow-up,,south
+495,Jack Anderso,jack.anderso494@test.org,36,188.68, Active,United Kingdom,19-07-2024,Café latte discount applied,,north
+496,BOB SMITH,bob.smith495@test.org,31,124.41,ACTIVE,UK,2023-10-25,Rejected – invalid coupon,,north
+497,Carol White,carol.white496@test.org,unknown,14.93,Active,USA,01/26/2024,Customer requested faster shipping.,,north
+498,carol white,carol.white497@example.com,85,120.99,ACTIVE,UK,06/26/2024,Rejected – invalid coupon,,north
+499,  Frank Miller  ,,77,113.67,Active,uk,12-08-2023,sample,,north
+500,alice johnson,alice.johnson499@mail.com,60,-250.0,Active,uk,2024-11-09,Customer requested faster shipping.,,north
+501,  Jack Anderson  ,jack.anderson500@mail.com,35,?,Active,UK,06-07-2024,urgent,,north
+502,Carol Whit,carol.whit501@example.com,86,267.47, Active,uk,11/23/2023,sample,,north
+503,Eve Davi,eve.davi502@test.org,36,310.07,Active,United States,22-10-2024,Rejected – invalid coupon,,north
+504,  Bob Smith  ,bob.smith503@mail.com,55,331.54,active,UK,"October 12, 2023",sample,,north
+505,Ivy Taylo,ivy.taylo504@example.com,26,405.7,Inactive,USA,05-10-2024,sample,,north
+506,  Grace Wilson  ,grace.wilson505@example.com,77,413.61,inactive,United Kingdom,05/15/2023,lorem ipsum dolor sit amet,,north
+507,  Ivy Taylor  ,,29,248.6,active,uk,11/16/2024,Café latte discount applied,,north
+508,Grace  Wilson,grace.wilson507@mail.com,35,345.18,ACTIVE,uk,03/23/2024,urgent,,north
+509,david brown,david.brown508@mail.com,82,,Active,UK,16-04-2023,Customer requested faster shipping.,,north
+510,frank miller,frank.miller509@test.org,20,361.8,Active,U.S.A.,2023-01-07,Café latte discount applied,,north
+511,Frank Mille,frank.mille510@example.com,30,65.4,Active,usa,04/23/2023,México office follow-up,,north
+512,Ivy Taylo,none,38,407.09,active,usa,2024-03-18,Rejected – invalid coupon,,north
+513,FRANK MILLER,frank.miller512@test.org,-5,85.51,active,U.S.A.,05/15/2023,Customer requested faster shipping.,,north
+514,Bob Smit,bob.smit513@example.com,48,386.33,ACTIVE,UK,"June 15, 2023",�� corrupted note �,,north
+515,Frank Mille,frank.mille514@mail.com,85,363.28,active,United Kingdom,04-06-2024,sample,,north
+516,  Eve Davis  ,eve.davis515@example.com,56,299.86,ACTIVE,United Kingdom,"February 05, 2024",Café latte discount applied,,north
+517,CAROL WHITE,carol.white516@example.com,26,263.29,active,uk,2023-06-19,,,north
+518,Bob Smit,bob.smit517@example.com,74,497.84,Active,usa,"September 16, 2024",México office follow-up,,north
+519,frank miller,frank.miller518@mail.com,  ,453.66,Active,United States,05/15/2023,test,,south
+520,David  Brown,david.brown519@example.com,39,-,Active,USA,03/12/2024,Customer requested faster shipping.,,north
+521,  David Brown  ,david.brown520@mail.com,71,386.29,Active,uk,07/27/2024,lorem ipsum dolor sit amet,,north
+522,Carol  White,carol.white521@example.com,87,144.89,inactive,uk,"June 20, 2023",�� corrupted note �,,north
+523,ivy taylor,ivy.taylor522@test.org,68,?,Active,U.S.A.,"September 15, 2024",test,,north
+524,  Carol White  ,carol.white523@test.org,85,-250.0,Active,USA,20-04-2023,lorem ipsum dolor sit amet,,north
+525,Bob  Smith,bob.smith524@example.com,28,153.28,active,UK,07/17/2023,lorem ipsum dolor sit amet,,north
+526,Ivy  Taylor,ivy.taylor525@example.com,62,391.12,active,usa,27-03-2023,México office follow-up,,north
+527,bob smith,bob.smith526@example.com,56,257.23,active,usa,"June 23, 2024",Café latte discount applied,,north
+528,Alice Johnson,alice.johnson527@example.com,71,10.4,Active,USA,2023-02-22,Customer requested faster shipping.,,north
+529,david brown,david.brown528@test.org,86,76.1,ACTIVE,USA,"February 20, 2023",,,north
+530,ivy taylor,ivy.taylor529@mail.com,20,200.12, Active,U.S.A.,"January 25, 2023",Customer requested faster shipping.,,north
+531,carol white,carol.white530@example.com,89,198.41,Active,usa,2024-08-19,lorem ipsum dolor sit amet,,north
+532,DAVID BROWN,david.brown531@example.com,26,493.58,ACTIVE,usa,"May 17, 2023",México office follow-up,,north
+533,  Grace Wilson  ,grace.wilson532@example.com,-5,365.93,Active,USA,2024-04-02,Café latte discount applied,,north
+534,Jack Anderso,jack.anderso533@mail.com,76,187.48,active,usa,2024-09-11,Customer requested faster shipping.,,north
+535,David Brow,david.brow534@mail.com,31,,ACTIVE,U.S.A.,01/01/2023,Customer requested faster shipping.,,north
+536,ivy taylor,ivy.taylor535@test.org,54,378.23, Active,usa,"June 16, 2024",�� corrupted note �,,north
+537,BOB SMITH,bob.smith536@test.org,65,433.12,Active,usa,"August 11, 2023",Customer requested faster shipping.,,north
+538,alice johnson,alice.johnson537@test.org,81,336.22,active,uk,09/28/2023,México office follow-up,,north
+539,Hank Moor,hank.moor538@mail.com,,378.6,active,United Kingdom,08/03/2023,�� corrupted note �,,north
+540,  David Brown  ,david.brown539@example.com,28,96.35,Active,usa,10/28/2023,sample,,north
+541,Hank Moore,hank.moore540@example.com,72,345.05, Active,U.S.A.,"July 25, 2024",Customer requested faster shipping.,,north
+542,Carol  White,carol.white541@example.com,80,294.07, Active,U.S.A.,"October 01, 2024",Customer requested faster shipping.,,south
+543,Frank  Miller,frank.miller542@mail.com,77,-250.0,Active,United Kingdom,30-05-2023,Customer requested faster shipping.,,north
+544,Ivy Taylo,ivy.taylo543@test.org,unknown,123.86, Active,usa,08-06-2024,ReciÃ©ved partial refund,,north
+545,David Brow,david.brow544@mail.com,85,194.81,active,United States,24-02-2023,test,,north
+546,  Alice Johnson  ,alice.johnson545@test.org,76,20.09,Active,uk,2023-11-16,lorem ipsum dolor sit amet,,north
+547,carol white,carol.white546@mail.com,39,416.79,ACTIVE,United Kingdom,06/25/2024,Customer requested faster shipping.,,south
+548,  Jack Anderson  ,jack.anderson547@test.org,86,41.21,Active,U.S.A.,10/15/2024,Customer requested faster shipping.,,north
+549,  Alice Johnson  ,alice.johnson548@mail.com,35,108.98, Active,UK,05-09-2023,lorem ipsum dolor sit amet,,north
+550,ALICE JOHNSON,alice.johnson549@example.com,24,421.27,Active,United States,"May 30, 2023",test,,north
+551,  David Brown  ,david.brown550@example.com,22,202.72,active,U.S.A.,"March 13, 2023",�� corrupted note �,,north
+552,Carol  White,carol.white551@mail.com,unknown,255.11,active,usa,"June 13, 2024",México office follow-up,,north
+553,EVE DAVIS,eve.davis552@test.org,68,-,ACTIVE,U.S.A.,07/16/2024,Rejected – invalid coupon,,north
+554,IVY TAYLOR,ivy.taylor553@mail.com,73,88.99,active,United Kingdom,"June 10, 2024",Customer requested faster shipping.,,north
+555,david brown,david.brown554@test.org,31,-,ACTIVE,usa,"June 06, 2024",Customer requested faster shipping.,,north
+556,jack anderson,jack.anderson555@example.com,unknown,474.51,Active,United States,12-12-2023,Café latte discount applied,,north
+557,Ivy Taylor,ivy.taylor556@example.com,999,24.28,active,usa,2024-10-12,Rejected – invalid coupon,,north
+558,CAROL WHITE,carol.white557@test.org,63,276.43,Active,United Kingdom,07-10-2023,lorem ipsum dolor sit amet,,north
+559,alice johnson,alice.johnson558@test.org,86,211.72,Active,USA,25-10-2024,Café latte discount applied,,north
+560,EVE DAVIS,eve.davis559@example.com,23,133.46, Active,USA,05-08-2024,Customer requested faster shipping.,,north
+561,  Jack Anderson  ,jack.anderson560@example.com,43,295.21,active,UK,21-09-2023,Rejected – invalid coupon,,north
+562,IVY TAYLOR,none,51,39.79,Active,U.S.A.,"August 06, 2024",test,,north
+563,  Bob Smith  ,bob.smith562@test.org,43,359.92,Active,usa,2024-04-09,Customer requested faster shipping.,,north
+564,BOB SMITH,bob.smith563@mail.com,45,133.21,inactive,USA,02/26/2024,México office follow-up,,north
+565,alice johnson,alice.johnson564@example.com,22,132.97,active,UK,"August 05, 2023",México office follow-up,,north
+566,Hank Moor,hank.moor565@example.com,,498.76,active,uk,2023-07-20,lorem ipsum dolor sit amet,,north
+567,frank miller,frank.miller566@example.com,49,26.63,Inactive,United Kingdom,04/03/2023,,,north
+568,Eve  Davis,eve.davis567@mail.com,63,354.58,Active,UK,"July 03, 2023",Customer requested faster shipping.,,north
+569,  Bob Smith  ,bob.smith568@mail.com,62,35.2, Active,usa,2024-02-25,Rejected – invalid coupon,,north
+570,  Ivy Taylor  ,ivy.taylor569@mail.com,72,9.33,Active,UK,11/15/2024,sample,,north
+571,Eve Davi,eve.davi570@mail.com,88,5.15,Inactive,U.S.A.,07/19/2023,Rejected – invalid coupon,,north
+572,GRACE WILSON,grace.wilson571@test.org,88,290.83,active,United Kingdom,07/07/2024,Customer requested faster shipping.,,north
+573,Grace Wilson,grace.wilson572@example.com,88,-250.0,ACTIVE,usa,27-04-2024,Customer requested faster shipping.,,north
+574,Carol White,carol.white573@example.com,47,141.67,Inactive,United States,06/21/2024,lorem ipsum dolor sit amet,,north
+575,Frank Mille,frank.mille574@example.com,-5,188.1,active,uk,06/14/2024,lorem ipsum dolor sit amet,,north
+576,DAVID BROWN,david.brown575@example.com,28,285.3,active,United States,23-05-2023,test,,north
+577,Alice  Johnson,alice.johnson576@mail.com,75,368.98,ACTIVE,United Kingdom,"July 14, 2023",Customer requested faster shipping.,,north
+578,Jack  Anderson,jack.anderson577@test.org,42,490.39,Inactive,U.S.A.,"June 30, 2024",Customer requested faster shipping.,,north
+579,David Brow,david.brow578@mail.com,63,319.02, Active,UK,11-06-2024,México office follow-up,,north
+580,jack anderson,jack.anderson579@example.com,80,21.3,inactive,USA,01/22/2024,lorem ipsum dolor sit amet,,north
+581,Bob Smith,,36,201.76,Active,usa,"June 10, 2023",Customer requested faster shipping.,,north
+582,Alice Johnson,alice.johnson581@test.org,79,195.06, Active,USA,"October 14, 2023",lorem ipsum dolor sit amet,,north
+583,BOB SMITH,bob.smith582@test.org,78,453.78,active,uk,2023-09-29,test,,north
+584,carol white,carol.white583@mail.com,20,435.62,ACTIVE,U.S.A.,"April 29, 2024",ReciÃ©ved partial refund,,north
+585,DAVID BROWN,david.brown584@test.org,,,active,United States,25-07-2024,Café latte discount applied,,north
+586,Ivy Taylo,ivy.taylo585@test.org,47,236.27,active,U.S.A.,25-11-2024,urgent,,north
+587,Grace Wilson,grace.wilson586@test.org,65,154.47,ACTIVE,uk,04-05-2023,Café latte discount applied,,north
+588,Jack Anderson,jack.anderson587@example.com,23,238.44,active,usa,"May 02, 2023",test,,north
+589,David  Brown,david.brown588@example.com,53,96.3,ACTIVE,United States,26-10-2024,test,,north
+590,Hank  Moore,hank.moore589@example.com,27,373.32,Active,U.S.A.,27-06-2023,lorem ipsum dolor sit amet,,north
+591,Hank Moor,hank.moor590@example.com,85,317.7,Inactive,UK,"April 29, 2023",lorem ipsum dolor sit amet,,north
+592,David  Brown,david.brown591@test.org,31,15.67,Inactive,United Kingdom,2023-06-30,Café latte discount applied,,north
+593,Bob Smith,bob.smith592@test.org,37,-250.0,active,UK,10-09-2023,Café latte discount applied,,north
+594,Ivy  Taylor,ivy.taylor593@example.com,54,337.73, Active,USA,2023-03-11,Customer requested faster shipping.,,north
+595,  Hank Moore  ,hank.moore594@mail.com,80,383.83,active,United States,"June 06, 2024",Customer requested faster shipping.,,north
+596,David  Brown,david.brown595@example.com,56,264.73,Active,United States,2024-06-10,ReciÃ©ved partial refund,,north
+597,CAROL WHITE,carol.white596@mail.com,74,17.68,active,UK,"May 05, 2023",Café latte discount applied,,north
+598,David Brow,david.brow597@example.com,-5,251.95,ACTIVE,USA,05/18/2024,lorem ipsum dolor sit amet,,north
+599,Carol Whit,carol.whit598@test.org,23,188.7,Active,UK,06/05/2023,Customer requested faster shipping.,,north
+600,  Frank Miller  ,frank.miller599@example.com,999,292.6,Active,usa,02/07/2023,Customer requested faster shipping.,,north
+601,Hank Moore,hank.moore600@test.org,30,231.13,Active,United States,2024-10-07,urgent,,north
+602,Jack Anderso,jack.anderso601@test.org,unknown,150.17,inactive,USA,"May 01, 2023",sample,,north
+603,  Alice Johnson  ,alice.johnson602@mail.com,unknown,131.58,active,uk,"October 23, 2024",,,north
+604,FRANK MILLER,frank.miller603@example.com,70,11.26,Active,United States,2024-10-08,México office follow-up,,north
+605,EVE DAVIS,eve.davis604@mail.com,unknown,172.47,active,UK,2023-10-29,Rejected – invalid coupon,,north
+606,frank miller,frank.miller605@mail.com,53,385.59,Active,United Kingdom,25-01-2023,Café latte discount applied,,north
+607,carol white,carol.white606@test.org,56,467.54, Active,U.S.A.,2023-04-06,,,north
+608,  Jack Anderson  ,jack.anderson607@test.org,unknown,141.47,Active,U.S.A.,02/07/2023,,,north
+609,Frank Miller,frank.miller608@example.com,52,150.83, Active,UK,29-11-2024,Customer requested faster shipping.,,north
+610,alice johnson,alice.johnson609@mail.com,18,444.84,active,UK,"January 16, 2024",urgent,,north
+611,Eve Davis,eve.davis610@mail.com,29,103.31,active,UK,"January 03, 2023",Customer requested faster shipping.,,north
+612,Hank Moor,hank.moor611@mail.com,29,196.74,Active,USA,"December 09, 2023",test,,north
+613,David Brown,?,36,184.77,active,uk,"June 23, 2023",sample,,north
+614,  Bob Smith  ,bob.smith613@mail.com,88,-250.0, Active,United Kingdom,14-03-2024,�� corrupted note �,,north
+615,DAVID BROWN,david.brown614@example.com,80,174.13,ACTIVE,UK,01/07/2023,Customer requested faster shipping.,,north
+616,Alice Johnso,alice.johnso615@mail.com,50,,active,UK,"August 29, 2024",sample,,north
+617,jack anderson,none,55,106.89,Active,U.S.A.,11/10/2023,sample,,north
+618,ALICE JOHNSON,alice.johnson617@test.org,48,309.19,Active,U.S.A.,"January 10, 2024",lorem ipsum dolor sit amet,,north
+619,Alice Johnso,alice.johnso618@example.com,67,493.59,active,usa,02-12-2023,�� corrupted note �,,north
+620,Alice Johnso,-,35,371.55,Inactive,U.S.A.,2023-12-20,Rejected – invalid coupon,,north
+621,hank moore,,41,496.35,Active,uk,25-08-2024,ReciÃ©ved partial refund,,north
+622,carol white,carol.white621@test.org,81,73.97,Active,United Kingdom,04/29/2023,test,,north
+623,Hank Moore,hank.moore622@example.com,,272.23,active,uk,07-09-2023,ReciÃ©ved partial refund,,north
+624,hank moore,hank.moore623@mail.com,41,476.01,inactive,uk,2023-01-08,�� corrupted note �,,north
+625,Hank Moor,hank.moor624@test.org,64,62.39,active,United States,"November 27, 2024",Customer requested faster shipping.,,north
+626,EVE DAVIS,eve.davis625@test.org,,147.77,Active,United States,"March 20, 2024",lorem ipsum dolor sit amet,,north
+627,David Brow,david.brow626@test.org,62,494.0,Active,usa,2023-09-25,Rejected – invalid coupon,,north
+628,FRANK MILLER,frank.miller627@mail.com,56,397.47,Active,uk,02/25/2023,urgent,,north
+629,Jack  Anderson,jack.anderson628@example.com,66,481.84,active,uk,"August 08, 2023",Rejected – invalid coupon,,north
+630,DAVID BROWN,david.brown629@test.org,85,291.55,ACTIVE,UK,11/25/2024,lorem ipsum dolor sit amet,,north
+631,Frank  Miller,frank.miller630@mail.com,unknown,196.61,active,United Kingdom,09/06/2024,México office follow-up,,north
+632,Bob Smith,bob.smith631@mail.com,26,26.26,Active,United Kingdom,09/06/2023,México office follow-up,,north
+633,FRANK MILLER,frank.miller632@test.org,48,292.13, Active,United Kingdom,05/17/2023,test,,north
+634,bob smith,bob.smith633@mail.com,-5,474.47,ACTIVE,United States,2024-01-21,urgent,,north
+635,Hank Moor,hank.moor634@mail.com,27,371.02,Inactive,uk,"August 01, 2024",sample,,north
+636,Ivy  Taylor,ivy.taylor635@mail.com,84,6.59,ACTIVE,U.S.A.,"September 07, 2023",Customer requested faster shipping.,,north
+637,jack anderson,jack.anderson636@example.com,85,186.62,Active,usa,18-09-2024,México office follow-up,,north
+638,Frank  Miller,frank.miller637@mail.com,34,,Active,USA,04-06-2023,Rejected – invalid coupon,,north
+639,  David Brown  ,david.brown638@example.com,56,181.93,active,UK,11/27/2023,Customer requested faster shipping.,,north
+640,Hank Moore,hank.moore639@test.org,45,93.27,active,UK,2023-02-10,México office follow-up,,north
+641,jack anderson,jack.anderson640@test.org,50,, Active,USA,23-10-2023,,,north
+642,Hank Moor,hank.moor641@test.org,63,356.3,Active,uk,"February 04, 2023",�� corrupted note �,,north
+643,Jack  Anderson,jack.anderson642@mail.com,43,117.48,ACTIVE,uk,"May 20, 2023",test,,north
+644,Carol Whit,carol.whit643@example.com,unknown,60.16,active,uk,2023-11-08,Rejected – invalid coupon,,north
+645,  Bob Smith  ,bob.smith644@mail.com,-5,,Active,UK,2024-05-21,México office follow-up,,north
+646,Eve Davi,eve.davi645@test.org,67,-250.0, Active,United States,03-12-2023,Rejected – invalid coupon,,north
+647,Bob Smit,bob.smit646@example.com,80,299.8,Active,USA,2024-10-18,Customer requested faster shipping.,,north
+648,  Bob Smith  ,bob.smith647@test.org,67,494.32,active,uk,"September 27, 2023",sample,,north
+649,BOB SMITH,,65,402.02,Active,United States,2024-10-09,test,,north
+650,David Brown,david.brown649@test.org,28,429.56,active,uk,11-09-2023,lorem ipsum dolor sit amet,,north
+651,Frank Mille,frank.mille650@example.com,28,,ACTIVE,UK,"May 04, 2023",Customer requested faster shipping.,,north
+652,carol white,carol.white651@mail.com,21,153.9,Active,United Kingdom,27-06-2024,Café latte discount applied,,north
+653,Jack Anderso,jack.anderso652@test.org,?,9.29,ACTIVE,UK,25-07-2023,sample,,north
+654,eve davis,eve.davis653@mail.com,33,225.83,Active,usa,"July 31, 2024",test,,north
+655,  Ivy Taylor  ,ivy.taylor654@test.org,79,251.77,Active,UK,"June 18, 2023",Customer requested faster shipping.,,north
+656,Alice Johnson,,75,213.35, Active,USA,"May 19, 2024",Café latte discount applied,,north
+657,  Eve Davis  ,eve.davis656@test.org,unknown,228.17,Inactive,usa,"December 11, 2023",Rejected – invalid coupon,,north
+658,david brown,david.brown657@test.org,50,225.4,Active,United Kingdom,22-03-2024,lorem ipsum dolor sit amet,,north
+659,grace wilson,grace.wilson658@mail.com,21,222.43,Active,usa,"March 01, 2024",lorem ipsum dolor sit amet,,north
+660,FRANK MILLER,frank.miller659@example.com,25,162.38,Inactive,United Kingdom,2024-09-12,Customer requested faster shipping.,,north
+661,ivy taylor,ivy.taylor660@test.org,43,30.36,active,USA,14-04-2023,Café latte discount applied,,north
+662,grace wilson,grace.wilson661@mail.com,41,429.7,Active,usa,2023-02-18,�� corrupted note �,,north
+663,bob smith,bob.smith662@example.com,46,475.98,Active,USA,21-03-2024,Customer requested faster shipping.,,north
+664,HANK MOORE,?,20,265.18, Active,United States,"February 04, 2024",,,north
+665,  Hank Moore  ,hank.moore664@test.org,37,343.79,Active,United Kingdom,"February 23, 2023",sample,,north
+666,eve davis,eve.davis665@test.org,76,285.66,inactive,USA,12/19/2023,Customer requested faster shipping.,,north
